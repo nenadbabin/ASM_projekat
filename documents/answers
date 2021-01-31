@@ -1,0 +1,44 @@
+1) Koliki je prosečan broj tenisera (saigrača) po svakom teniseru?
+
+Ovo se odnosi na igrace koji su odigrali bar jedan mec u godini.
+2018: 11.881
+2019:
+2020:
+
+2) Koji teniseri su se susretali sa najvećim brojem drugih tenisera?
+3) Koji teniseri su učestvovali na najvećem broju (različitih) turnira?
+4) Koji teniseri su dobri kandidati za predstavnike profesionalnih tenisera? Da li i šta se menja
+ukoliko se umesto jednog bira skup od nekoliko predstavnika? Dobar predstavnik ili
+predstavnici bi trebalo da budu u kontaktu sa što većim skupom tenisera.
+5) Kako su rangirani na ATP listi teniseri koji su se susretali sa najvećim brojem drugih
+tenisera?
+6) Iz kojih zemalja dolazi najveći broj aktivnih igrača u proteklom periodu?
+7) Iz kojih zemalja dolaze najuspešniji igrači u smislu osvojenih poena na ATP listi?
+8) Kako su u okviru skupa podataka okarakterisani igrači iz Srbije?
+9) Koje zajednice (komune) se mogu uočiti prilikom analize mreže? Da li postoji neko
+objašnjenje za detektovane komune?
+10)Sprovesti analizu klasterisanja i asortativnu analizu, pa uporediti grupisanje na osnovu
+zemlje iz koje igrači dolaze, na osnovu broja mečeva koje igraju i na osnovu rejtinga.
+11)U kojoj meri teniseri imaju tendenciju da se susreću sa istim teniserima? Da li na to utiče
+njihovo rangiranje na ATP listi?
+12)Koji teniseri predstavljaju jezgro mreže?
+13)Ko su teniseri koji povezuju različite grupe u okviru mreže?
+14)Kolika je gustina svake od modelovanih mreža?
+15)U kojoj meri su mreže povezane i centralizovane?
+16)Koje su prosečne distance, a koliki dijametar u okviru modelovanih mreža?
+17)Kakva je distribucija čvorova po stepenu i da li prati neku zakonomernost? Kako je stepen
+čvora korelisan sa rejtingom tenisera?
+18)Da li u mreži postoje habovi i koji su?
+19)Da li mreža tenisera iskazuje osobine malog sveta?
+20)Kakve su karakteristike ego mreža članova Velike trojke? U kojoj meri se te karakteristike
+razlikuju?
+21)Kakva je pozicija ego čvora u svakoj od ego mreža? Kako su oni strukturno ugrađeni u
+mrežu?
+22)Kako su posmatrane ego mreže ugrađene u mrežu tenisera?
+23)Analizirati mrežu dobijenu unifikacijom ego mreža članova Velike trojke. Koji procenat
+čvorova mreže svih tenisera učestvuje u njoj? Sprovesti klasterisanje ovako dobijene mreže 
+na tri klastera i na osnovu dobijenih rezultata dati interpretaciju kriterijuma pripadnosti
+klasterima.
+24)Kakva je distribucija broja tenisera u odnosu na broj mečeva koji su odigrali?
+25)Kakva je distribucija broja turnira u odnosu na podlogu i godinu održavanja?
+26)Kakva je distribucija broja mečeva u odnosu na podlogu i godinu održavanja?
