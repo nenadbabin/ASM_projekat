@@ -3,7 +3,7 @@
 # Imports
 import pandas as pd
 import networkx as nx
-from notebooks.utility import add_player_node
+from notebooks.utility import add_player_node, Year, get_ranking_data
 
 # %%
 
@@ -109,12 +109,14 @@ G = nx.Graph()
 column_labels = ['player_id', 'first_name', 'last_name', 'country_code', 'hand']
 selected_players_data = data_atp_players[column_labels]
 
+ranking_data = get_ranking_data(Year.year_2018)
+
 # Create graph with weights
 for _, winner_id, loser_id in data_atp_matches_2018[['winner_id', 'loser_id']].itertuples():
     if winner_id not in G.nodes:
-        add_player_node(G, winner_id)
+        add_player_node(G, winner_id, selected_players_data, ranking_data)
     if loser_id not in G.nodes:
-        add_player_node(G, loser_id)
+        add_player_node(G, loser_id, selected_players_data, ranking_data)
 
     if (winner_id, loser_id) in G.edges:
         G.edges[winner_id, loser_id]['weight'] += 1
@@ -135,6 +137,6 @@ for _, winner_id, loser_id in data_atp_matches_2018[['winner_id', 'loser_id']].i
 # G.remove_nodes_from(list(nx.isolates(G)))
 # %%
 
-output_path = "models/matches_2018_undirected_weights.gml"
+output_path = "../models/matches_2018_undirected_weights.gml"
 
 nx.write_gml(G, output_path)
