@@ -1,7 +1,8 @@
 # Imports
 import pandas as pd
 import networkx as nx
-from notebooks.utility import add_player_node, Year, get_ranking_data, year_string_to_enum
+from notebooks.utility import add_player_node, get_ranking_data, year_string_to_enum, calculate_centralities, \
+    players_nationalities, get_points_data, get_all_players
 
 YEAR = "2018"
 
@@ -96,6 +97,25 @@ for _, winner_id, loser_id in data_atp_matches[['winner_id', 'loser_id']].itertu
     else:
         G.add_edge(winner_id, loser_id, weight=1)
 
+# Centralnosti - pitanje 4
+df_centralities = calculate_centralities(G)
+
+df_centralities.to_excel("../models/centralities_undirected_" + YEAR + ".xls")
+
+# Broj igraca po nacionalnosti - pitanje 6
+df_nationalities = players_nationalities(G)
+
+df_nationalities_grouped = df_nationalities.groupby(['country_code']).agg(['count'])
+
+df_nationalities_grouped.to_excel("../models/nationalities_undirected_" + YEAR + ".xls")
+
+# Igraci sa brojem osvojenih poena na kraju godine - pitanje 7
+data_all_players = get_all_players()
+df_atp_points_end_of_year = get_points_data(year_string_to_enum(YEAR), data_all_players)
+
+df_atp_points_end_of_year.to_excel("../models/atp_points_undirected_" + YEAR + ".xls")
+
+# Upis grafa
 output_path = "../models/matches_" + YEAR + "_undirected_weights.gml"
 
 nx.write_gml(G, output_path)
