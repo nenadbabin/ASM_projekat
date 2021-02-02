@@ -1,8 +1,12 @@
 
 .idea/workspace.xml
+.idea/vcs.xml
 .idea/other.xml
 .idea/modules.xml
 .idea/misc.xml
 .idea/inspectionProfiles/profiles_settings.xml
 .idea/ASM_projekat.iml
+.idea/
 notebooks/__pycache__/utility.cpython-37.pyc
+notebooks/__pycache__/utility.cpython-39.pyc
+venv/
