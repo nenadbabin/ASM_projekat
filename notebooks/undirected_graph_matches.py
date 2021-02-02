@@ -80,6 +80,7 @@ data_atp_matches['id'] = data_atp_matches.index
 
 G = nx.Graph()
 
+data_atp_players['player_id'].apply(pd.to_numeric)   # inace posmatra kao string
 column_labels = ['player_id', 'first_name', 'last_name', 'country_code', 'hand']
 selected_players_data = data_atp_players[column_labels]
 
@@ -99,20 +100,16 @@ for _, winner_id, loser_id in data_atp_matches[['winner_id', 'loser_id']].itertu
 
 # Centralnosti - pitanje 4
 df_centralities = calculate_centralities(G)
-
 df_centralities.to_excel("../models/centralities_undirected_" + YEAR + ".xls")
 
 # Broj igraca po nacionalnosti - pitanje 6
 df_nationalities = players_nationalities(G)
-
 df_nationalities_grouped = df_nationalities.groupby(['country_code']).agg(['count'])
-
 df_nationalities_grouped.to_excel("../models/nationalities_undirected_" + YEAR + ".xls")
 
 # Igraci sa brojem osvojenih poena na kraju godine - pitanje 7
 data_all_players = get_all_players()
 df_atp_points_end_of_year = get_points_data(year_string_to_enum(YEAR), data_all_players)
-
 df_atp_points_end_of_year.to_excel("../models/atp_points_undirected_" + YEAR + ".xls")
 
 # Upis grafa

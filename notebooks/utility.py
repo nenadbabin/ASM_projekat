@@ -46,21 +46,19 @@ def get_ranking_data(year):
 def get_points_data(year, data_all_players):
     ranking_file_path = get_ranking_file_path(year)
     ranking_data = pd.read_csv(ranking_file_path).drop_duplicates(keep="first")
+    ranking_data = ranking_data.drop_duplicates(keep="first")
 
     if year == Year.year_2018:
         mask = (ranking_data['ranking_date'] == 20181231)
     elif year == Year.year_2019:
         mask = (ranking_data['ranking_date'] == 20191230)
     elif year == Year.year_2020:
-        mask = (ranking_data['ranking_date'] == 20191230)   # PROMENI DATUM!
+        mask = (ranking_data['ranking_date'] == 20201221)
 
-    data_all_players['player_id'].apply(pd.to_numeric)
     ranking_data['player'].apply(pd.to_numeric)
 
     ranking_data = ranking_data[mask]
-    ranking_data.set_index('player')
-    data_all_players.set_index('player_id')
-    return ranking_data.join(data_all_players)
+    return ranking_data.set_index('player').join(data_all_players.set_index('player_id'))
 
 
 def get_player_rank(player_id, ranking_data):
