@@ -112,6 +112,25 @@ data_all_players = get_all_players()
 df_atp_points_end_of_year = get_points_data(year_string_to_enum(YEAR), data_all_players)
 df_atp_points_end_of_year.to_excel("../models/atp_points_undirected_" + YEAR + ".xls")
 
+# Asortativnost - pitanje 10
+assortativity_country = nx.attribute_assortativity_coefficient(G, "country_code")
+assortativity_avg_rank = nx.numeric_assortativity_coefficient(G, "rank_class")
+assortativity_degree_weighted = nx.degree_assortativity_coefficient(G, weight="weight")
+assortativity_degree = nx.degree_assortativity_coefficient(G)
+
+print("assortativity_country: {}".format(assortativity_country))
+print("assortativity_avg_rank: {}".format(assortativity_avg_rank))
+print("assortativity_degree_weighted: {}".format(assortativity_degree_weighted))
+print("assortativity_degree: {}".format(assortativity_degree))
+
+# pitanje 11
+average_edge_weight = G.size(weight='weight') / G.size()
+print("average_edge_weight: {}".format(average_edge_weight))
+
+# pitanje 14
+graph_density = nx.density(G)
+print("graph_density: {}".format(graph_density))
+
 # Upis grafa
 output_path = "../models/matches_" + YEAR + "_undirected_weights.gml"
 

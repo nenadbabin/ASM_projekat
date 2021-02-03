@@ -79,6 +79,8 @@ def add_player_node(graph, player_id, players_data, ranking_data):
 
     avg_rank, std_dev = get_player_rank(player_id, ranking_data)
 
+    rank_class = int(avg_rank)
+
     player_mask = players_data['player_id'] == player_id
     player = players_data[player_mask].values[0]
     graph.add_node(player_id,
@@ -86,7 +88,8 @@ def add_player_node(graph, player_id, players_data, ranking_data):
                    country_code=player[3],
                    hand=player[4],
                    avg_rank=avg_rank,
-                   std_dev=std_dev)
+                   std_dev=std_dev,
+                   rank_class=rank_class)
 
 
 def calculate_centralities(G):
