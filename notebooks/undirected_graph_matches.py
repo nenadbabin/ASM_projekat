@@ -2,12 +2,14 @@
 import pandas as pd
 import networkx as nx
 from notebooks.utility import add_player_node, get_ranking_data, year_string_to_enum, calculate_centralities, \
-    players_nationalities, get_points_data, get_all_players
+    players_nationalities, get_points_data, get_all_players, calculate_sum_of_differences, calculate_graph_centralities
+import collections
+import matplotlib.pyplot as plt
 
 YEAR = "2018"
 
 # Path strings
-data_path_atp_matches = "../data/atp_matches_" + YEAR + ".csv"
+data_path_atp_matches = "../data/atp_matches_" + YEAR + "_cleaned.csv"
 data_path_atp_players = "../data/atp_players.csv"
 
 # Load data
@@ -99,7 +101,7 @@ for _, winner_id, loser_id in data_atp_matches[['winner_id', 'loser_id']].itertu
         G.add_edge(winner_id, loser_id, weight=1)
 
 # Centralnosti - pitanje 4
-df_centralities = calculate_centralities(G)
+df_centralities, DC_dict, CC_dict, BC_dict, EVC_dict = calculate_centralities(G)
 df_centralities.to_excel("../models/centralities_undirected_" + YEAR + ".xls")
 
 # Broj igraca po nacionalnosti - pitanje 6
@@ -130,6 +132,40 @@ print("average_edge_weight: {}".format(average_edge_weight))
 # pitanje 14
 graph_density = nx.density(G)
 print("graph_density: {}".format(graph_density))
+
+# pitanje 15
+network_DC, network_CC, network_BC = calculate_graph_centralities(G, DC_dict, CC_dict, BC_dict)
+
+print("network_DC: {}". format(network_DC))
+print("network_CC: {}". format(network_CC))
+print("network_BC: {}". format(network_BC))
+
+# pitanje 17
+degree_sequence = sorted([d for n, d in G.degree()], reverse=True)  # degree sequence
+degreeCount = collections.Counter(degree_sequence)
+deg, cnt = zip(*degreeCount.items())
+
+fig, ax = plt.subplots()
+plt.bar(deg, cnt, width=0.80, color="b")
+
+plt.title("Degree Histogram")
+plt.ylabel("Count")
+plt.xlabel("Degree")
+ax.set_xticks([d + 0.4 for d in deg])
+ax.set_xticklabels(deg)
+
+# draw graph in inset
+plt.axes([0.4, 0.4, 0.5, 0.5])
+Gcc = G.subgraph(sorted(nx.connected_components(G), key=len, reverse=True)[0])
+pos = nx.spring_layout(G)
+plt.axis("off")
+nx.draw_networkx_nodes(G, pos, node_size=20)
+nx.draw_networkx_edges(G, pos, alpha=0.4)
+# plt.show()
+
+plt.savefig("../pics/degree_histogram_" + YEAR + ".png")
+
+G.degree
 
 # Upis grafa
 output_path = "../models/matches_" + YEAR + "_undirected_weights.gml"

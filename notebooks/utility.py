@@ -12,9 +12,9 @@ class Year(Enum):
 
 def get_ranking_file_path(year):
     switch = {
-        Year.year_2018: "../data/atp_rankings_10s.csv",
-        Year.year_2019: "../data/atp_rankings_10s.csv",
-        Year.year_2020: "../data/atp_rankings_current.csv"
+        Year.year_2018: "../data/atp_rankings_10s_cleaned.csv",
+        Year.year_2019: "../data/atp_rankings_10s_cleaned.csv",
+        Year.year_2020: "../data/atp_rankings_current_cleaned.csv"
     }
     return switch.get(year)
 
@@ -106,7 +106,7 @@ def calculate_centralities(G):
     df3 = pd.DataFrame.from_dict(BC_dict, orient='index', columns=['BC'])
     df4 = pd.DataFrame.from_dict(EVC_dict, orient='index', columns=['EVC'])
     df = pd.concat([df0, df1, df2, df3, df4], axis=1)
-    return df
+    return df, DC_dict, CC_dict, BC_dict, EVC_dict
 
 
 def players_nationalities(G):
@@ -122,3 +122,38 @@ def players_nationalities(G):
 def get_all_players():
     all_players_path = "../data/atp_players.csv"
     return pd.read_csv(all_players_path)
+
+
+def calculate_sum_of_differences(dictionary):
+    sum_of_diff = 0
+    max_value = max(dictionary.values())
+    for value in dictionary.values():
+        sum_of_diff += (max_value - value)
+
+    return sum_of_diff
+
+
+def calculate_graph_centralities(G, DC_dict, CC_dict, BC_dict):
+    DC_sum_of_diff = calculate_sum_of_differences(DC_dict)
+    CC_sum_of_diff = calculate_sum_of_differences(CC_dict)
+    BC_sum_of_diff = calculate_sum_of_differences(BC_dict)
+    # EVC_sum_of_diff = calculate_sum_of_differences(EVC_dict)
+
+    star_graph = nx.star_graph(G.number_of_nodes() - 1)
+
+    star_DC_dict = nx.degree_centrality(star_graph)
+    star_CC_dict = nx.closeness_centrality(star_graph)
+    star_BC_dict = nx.betweenness_centrality(star_graph)
+    # star_EVC_dict = nx.eigenvector_centrality(star_graph)
+
+    star_DC_sum_of_diff = calculate_sum_of_differences(star_DC_dict)
+    star_CC_sum_of_diff = calculate_sum_of_differences(star_CC_dict)
+    star_BC_sum_of_diff = calculate_sum_of_differences(star_BC_dict)
+    # star_EVC_sum_of_diff = calculate_sum_of_differences(star_EVC_dict)
+
+    network_DC = DC_sum_of_diff / star_DC_sum_of_diff
+    network_CC = CC_sum_of_diff / star_CC_sum_of_diff
+    network_BC = BC_sum_of_diff / star_BC_sum_of_diff
+    # network_EVC = EVC_sum_of_diff / star_EVC_sum_of_diff
+
+    return network_DC, network_CC, network_BC
