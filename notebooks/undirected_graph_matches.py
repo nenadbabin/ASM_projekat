@@ -172,9 +172,73 @@ nx.draw_networkx_edges(G, pos, alpha=0.4)
 
 plt.savefig("../pics/degree_histogram_" + YEAR + ".png")
 
-G.degree
+#%%
+plt.clf()
+plt.close()
 
+degree_list = []
+avg_rank_list = []
+for node, node_data in G.nodes.items():
+    degree = G.degree[node]
+    avg_rank = node_data['avg_rank']
+    if avg_rank == -1:
+        continue
+    degree_list.append(degree)
+    avg_rank_list.append(avg_rank)
+
+plt.title("Degree Rank Correlation")
+plt.ylabel("Rank")
+plt.xlabel("Degree")
+plt.scatter(degree_list, avg_rank_list)
+# plt.show()
+plt.savefig("../pics/degree_rank_correlation_" + YEAR + ".png")
+#%%
+
+n = G.number_of_nodes()
+m = G.number_of_edges()
+p = (2*float(m)) / (n*(n-1))
+er_graph = nx.erdos_renyi_graph(n, p)
+er_output_path = "../models/random_er_graph_" + YEAR + ".gml"
+nx.write_gml(er_graph, er_output_path)
+
+#%%
+
+
+n = G.number_of_nodes()
+m = G.number_of_edges()
+ba_graph = nx.barabasi_albert_graph(n, 6)
+ba_output_path = "../models/random_ba_graph_" + YEAR + ".gml"
+nx.write_gml(ba_graph, ba_output_path)
+
+#%%
+# import itertools
+# comp = nx.algorithms.community.centrality.girvan_newman(G)
+# for communities in itertools.islice(comp, 10):
+#     print(tuple(sorted(c) for c in communities))
+
+# omega = nx.algorithms.smallworld.omega(G)
+# print(omega)
+
+
+#%%
+
+roger_federer_node = [x for x, y in G.nodes(data=True) if y['name'] == "Roger Federer"][0]
+rafael_nadal_node = [x for x, y in G.nodes(data=True) if y['name'] == "Rafael Nadal"][0]
+novak_djokovic_node = [x for x, y in G.nodes(data=True) if y['name'] == "Novak Djokovic"][0]
+
+roger_federer_ego_network = nx.ego_graph(G, roger_federer_node)
+output_path_roger_federer_ego = "../models/roger_federer_ego_network_" + YEAR + ".gml"
+nx.write_gml(roger_federer_ego_network, output_path_roger_federer_ego)
+
+rafael_nadal_ego_network = nx.ego_graph(G, rafael_nadal_node)
+output_path_rafael_nadal_ego = "../models/rafael_nadal_ego_network_" + YEAR + ".gml"
+nx.write_gml(rafael_nadal_ego_network, output_path_rafael_nadal_ego)
+
+novak_djokovic_ego_network = nx.ego_graph(G, novak_djokovic_node)
+output_path_novak_djokovic_ego = "../models/novak_djokovic_ego_network_" + YEAR + ".gml"
+nx.write_gml(novak_djokovic_ego_network, output_path_novak_djokovic_ego)
+
+#%%
 # Upis grafa
 output_path = "../models/matches_" + YEAR + "_undirected_weights.gml"
-
 nx.write_gml(G, output_path)
