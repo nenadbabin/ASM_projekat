@@ -6,7 +6,8 @@ graph [
     country_code "JPN"
     hand "R"
     avg_rank 8.28
-    std_der 2.0
+    std_dev 2.0
+    rank_class 8
   ]
   node [
     id 1
@@ -15,7 +16,8 @@ graph [
     country_code "RUS"
     hand "R"
     avg_rank 9.94
-    std_der 5.0
+    std_dev 5.0
+    rank_class 9
   ]
   node [
     id 2
@@ -24,7 +26,8 @@ graph [
     country_code "FRA"
     hand "R"
     avg_rank 79.66
-    std_der 47.0
+    std_dev 47.0
+    rank_class 79
   ]
   node [
     id 3
@@ -33,7 +36,8 @@ graph [
     country_code "FRA"
     hand "R"
     avg_rank 54.34
-    std_der 16.0
+    std_dev 16.0
+    rank_class 54
   ]
   node [
     id 4
@@ -42,7 +46,8 @@ graph [
     country_code "AUS"
     hand "R"
     avg_rank 26.04
-    std_der 6.0
+    std_dev 6.0
+    rank_class 26
   ]
   node [
     id 5
@@ -51,7 +56,8 @@ graph [
     country_code "CAN"
     hand "R"
     avg_rank 21.49
-    std_der 7.0
+    std_dev 7.0
+    rank_class 21
   ]
   node [
     id 6
@@ -60,7 +66,8 @@ graph [
     country_code "JPN"
     hand "R"
     avg_rank 153.13
-    std_der 49.0
+    std_dev 49.0
+    rank_class 153
   ]
   node [
     id 7
@@ -69,7 +76,8 @@ graph [
     country_code "BUL"
     hand "R"
     avg_rank 35.11
-    std_der 16.0
+    std_dev 16.0
+    rank_class 35
   ]
   node [
     id 8
@@ -78,7 +86,8 @@ graph [
     country_code "JPN"
     hand "R"
     avg_rank 100.81
-    std_der 20.0
+    std_dev 20.0
+    rank_class 100
   ]
   node [
     id 9
@@ -87,7 +96,8 @@ graph [
     country_code "AUS"
     hand "R"
     avg_rank 60.74
-    std_der 10.0
+    std_dev 10.0
+    rank_class 60
   ]
   node [
     id 10
@@ -96,7 +106,8 @@ graph [
     country_code "GBR"
     hand "R"
     avg_rank 227.21
-    std_der 85.0
+    std_dev 85.0
+    rank_class 227
   ]
   node [
     id 11
@@ -105,7 +116,8 @@ graph [
     country_code "SRB"
     hand "R"
     avg_rank 77.74
-    std_der 27.0
+    std_dev 27.0
+    rank_class 77
   ]
   node [
     id 12
@@ -114,7 +126,8 @@ graph [
     country_code "AUS"
     hand "R"
     avg_rank 37.64
-    std_der 12.0
+    std_dev 12.0
+    rank_class 37
   ]
   node [
     id 13
@@ -123,7 +136,8 @@ graph [
     country_code "GBR"
     hand "R"
     avg_rank 38.36
-    std_der 19.0
+    std_dev 19.0
+    rank_class 38
   ]
   node [
     id 14
@@ -132,7 +146,8 @@ graph [
     country_code "AUS"
     hand "R"
     avg_rank 52.79
-    std_der 14.0
+    std_dev 14.0
+    rank_class 52
   ]
   node [
     id 15
@@ -141,7 +156,8 @@ graph [
     country_code "USA"
     hand "R"
     avg_rank 93.47
-    std_der 19.0
+    std_dev 19.0
+    rank_class 93
   ]
   node [
     id 16
@@ -150,7 +166,8 @@ graph [
     country_code "AUS"
     hand "R"
     avg_rank 178.43
-    std_der 21.0
+    std_dev 21.0
+    rank_class 178
   ]
   node [
     id 17
@@ -159,7 +176,8 @@ graph [
     country_code "AUS"
     hand "L"
     avg_rank 143.55
-    std_der 11.0
+    std_dev 11.0
+    rank_class 143
   ]
   node [
     id 18
@@ -168,7 +186,8 @@ graph [
     country_code "AUS"
     hand "R"
     avg_rank 106.77
-    std_der 16.0
+    std_dev 16.0
+    rank_class 106
   ]
   node [
     id 19
@@ -177,7 +196,8 @@ graph [
     country_code "AUS"
     hand "R"
     avg_rank 149.89
-    std_der 38.0
+    std_dev 38.0
+    rank_class 149
   ]
   node [
     id 20
@@ -186,7 +206,8 @@ graph [
     country_code "ARG"
     hand "R"
     avg_rank 73.81
-    std_der 18.0
+    std_dev 18.0
+    rank_class 73
   ]
   node [
     id 21
@@ -195,7 +216,8 @@ graph [
     country_code "SLO"
     hand "R"
     avg_rank 73.21
-    std_der 12.0
+    std_dev 12.0
+    rank_class 73
   ]
   node [
     id 22
@@ -204,7 +226,8 @@ graph [
     country_code "USA"
     hand "R"
     avg_rank 193.85
-    std_der 94.0
+    std_dev 94.0
+    rank_class 193
   ]
   node [
     id 23
@@ -213,7 +236,8 @@ graph [
     country_code "GER"
     hand "R"
     avg_rank 41.81
-    std_der 7.0
+    std_dev 7.0
+    rank_class 41
   ]
   node [
     id 24
@@ -222,7 +246,8 @@ graph [
     country_code "FRA"
     hand "L"
     avg_rank 64.45
-    std_der 11.0
+    std_dev 11.0
+    rank_class 64
   ]
   node [
     id 25
@@ -231,7 +256,8 @@ graph [
     country_code "JPN"
     hand "L"
     avg_rank 69.94
-    std_der 5.0
+    std_dev 5.0
+    rank_class 69
   ]
   node [
     id 26
@@ -240,7 +266,8 @@ graph [
     country_code "USA"
     hand "R"
     avg_rank 77.26
-    std_der 13.0
+    std_dev 13.0
+    rank_class 77
   ]
   node [
     id 27
@@ -249,7 +276,8 @@ graph [
     country_code "USA"
     hand "R"
     avg_rank 39.04
-    std_der 11.0
+    std_dev 11.0
+    rank_class 39
   ]
   node [
     id 28
@@ -258,7 +286,8 @@ graph [
     country_code "ESP"
     hand "R"
     avg_rank 15.45
-    std_der 6.0
+    std_dev 6.0
+    rank_class 15
   ]
   node [
     id 29
@@ -267,7 +296,8 @@ graph [
     country_code "CZE"
     hand "R"
     avg_rank 96.41
-    std_der 14.0
+    std_dev 14.0
+    rank_class 96
   ]
   node [
     id 30
@@ -276,7 +306,8 @@ graph [
     country_code "SRB"
     hand "R"
     avg_rank 1.19
-    std_der 0.0
+    std_dev 0.0
+    rank_class 1
   ]
   node [
     id 31
@@ -285,7 +316,8 @@ graph [
     country_code "ITA"
     hand "R"
     avg_rank 44.87
-    std_der 24.0
+    std_dev 24.0
+    rank_class 44
   ]
   node [
     id 32
@@ -294,7 +326,8 @@ graph [
     country_code "GEO"
     hand "R"
     avg_rank 20.02
-    std_der 4.0
+    std_dev 4.0
+    rank_class 20
   ]
   node [
     id 33
@@ -303,7 +336,8 @@ graph [
     country_code "SUI"
     hand "R"
     avg_rank 28.13
-    std_der 14.0
+    std_dev 14.0
+    rank_class 28
   ]
   node [
     id 34
@@ -312,7 +346,8 @@ graph [
     country_code "SRB"
     hand "R"
     avg_rank 34.85
-    std_der 7.0
+    std_dev 7.0
+    rank_class 34
   ]
   node [
     id 35
@@ -321,7 +356,8 @@ graph [
     country_code "FRA"
     hand "R"
     avg_rank 50.87
-    std_der 11.0
+    std_dev 11.0
+    rank_class 50
   ]
   node [
     id 36
@@ -330,7 +366,8 @@ graph [
     country_code "HUN"
     hand "R"
     avg_rank 52.83
-    std_der 14.0
+    std_dev 14.0
+    rank_class 52
   ]
   node [
     id 37
@@ -339,7 +376,8 @@ graph [
     country_code "RUS"
     hand "R"
     avg_rank 63.47
-    std_der 31.0
+    std_dev 31.0
+    rank_class 63
   ]
   node [
     id 38
@@ -348,7 +386,8 @@ graph [
     country_code "CHI"
     hand "R"
     avg_rank 68.38
-    std_der 13.0
+    std_dev 13.0
+    rank_class 68
   ]
   node [
     id 39
@@ -357,7 +396,8 @@ graph [
     country_code "ESP"
     hand "R"
     avg_rank 135.19
-    std_der 21.0
+    std_dev 21.0
+    rank_class 135
   ]
   node [
     id 40
@@ -366,7 +406,8 @@ graph [
     country_code "LTU"
     hand "R"
     avg_rank 80.47
-    std_der 16.0
+    std_dev 16.0
+    rank_class 80
   ]
   node [
     id 41
@@ -375,7 +416,8 @@ graph [
     country_code "ARG"
     hand "L"
     avg_rank 29.64
-    std_der 12.0
+    std_dev 12.0
+    rank_class 29
   ]
   node [
     id 42
@@ -384,7 +426,8 @@ graph [
     country_code "ESP"
     hand "L"
     avg_rank 36.87
-    std_der 8.0
+    std_dev 8.0
+    rank_class 36
   ]
   node [
     id 43
@@ -393,7 +436,8 @@ graph [
     country_code "GER"
     hand "L"
     avg_rank 169.57
-    std_der 64.0
+    std_dev 64.0
+    rank_class 169
   ]
   node [
     id 44
@@ -402,7 +446,8 @@ graph [
     country_code "BIH"
     hand "R"
     avg_rank 75.68
-    std_der 21.0
+    std_dev 21.0
+    rank_class 75
   ]
   node [
     id 45
@@ -411,7 +456,8 @@ graph [
     country_code "ROU"
     hand "R"
     avg_rank 95.85
-    std_der 31.0
+    std_dev 31.0
+    rank_class 95
   ]
   node [
     id 46
@@ -420,7 +466,8 @@ graph [
     country_code "ITA"
     hand "R"
     avg_rank 64.4
-    std_der 13.0
+    std_dev 13.0
+    rank_class 64
   ]
   node [
     id 47
@@ -429,7 +476,8 @@ graph [
     country_code "ESP"
     hand "L"
     avg_rank 67.26
-    std_der 22.0
+    std_dev 22.0
+    rank_class 67
   ]
   node [
     id 48
@@ -438,7 +486,8 @@ graph [
     country_code "RUS"
     hand "R"
     avg_rank 11.6
-    std_der 3.0
+    std_dev 3.0
+    rank_class 11
   ]
   node [
     id 49
@@ -447,7 +496,8 @@ graph [
     country_code "NED"
     hand "R"
     avg_rank 104.04
-    std_der 45.0
+    std_dev 45.0
+    rank_class 104
   ]
   node [
     id 50
@@ -456,7 +506,8 @@ graph [
     country_code "QAT"
     hand "U"
     avg_rank 1964.67
-    std_der 21.0
+    std_dev 21.0
+    rank_class 1964
   ]
   node [
     id 51
@@ -465,7 +516,8 @@ graph [
     country_code "ITA"
     hand "R"
     avg_rank 28.4
-    std_der 18.0
+    std_dev 18.0
+    rank_class 28
   ]
   node [
     id 52
@@ -474,7 +526,8 @@ graph [
     country_code "BEL"
     hand "R"
     avg_rank 18.6
-    std_der 6.0
+    std_dev 6.0
+    rank_class 18
   ]
   node [
     id 53
@@ -483,7 +536,8 @@ graph [
     country_code "FRA"
     hand "L"
     avg_rank 49.91
-    std_der 8.0
+    std_dev 8.0
+    rank_class 49
   ]
   node [
     id 54
@@ -492,7 +546,8 @@ graph [
     country_code "TUR"
     hand "R"
     avg_rank 268.55
-    std_der 12.0
+    std_dev 12.0
+    rank_class 268
   ]
   node [
     id 55
@@ -501,7 +556,8 @@ graph [
     country_code "UKR"
     hand "R"
     avg_rank 136.51
-    std_der 13.0
+    std_dev 13.0
+    rank_class 136
   ]
   node [
     id 56
@@ -510,7 +566,8 @@ graph [
     country_code "ITA"
     hand "R"
     avg_rank 112.62
-    std_der 8.0
+    std_dev 8.0
+    rank_class 112
   ]
   node [
     id 57
@@ -519,7 +576,8 @@ graph [
     country_code "GER"
     hand "R"
     avg_rank 59.98
-    std_der 18.0
+    std_dev 18.0
+    rank_class 59
   ]
   node [
     id 58
@@ -528,7 +586,8 @@ graph [
     country_code "GER"
     hand "R"
     avg_rank 97.45
-    std_der 20.0
+    std_dev 20.0
+    rank_class 97
   ]
   node [
     id 59
@@ -537,7 +596,8 @@ graph [
     country_code "AUT"
     hand "R"
     avg_rank 5.11
-    std_der 1.0
+    std_dev 1.0
+    rank_class 5
   ]
   node [
     id 60
@@ -546,7 +606,8 @@ graph [
     country_code "RSA"
     hand "R"
     avg_rank 26.36
-    std_der 32.0
+    std_dev 32.0
+    rank_class 26
   ]
   node [
     id 61
@@ -555,7 +616,8 @@ graph [
     country_code "CRO"
     hand "R"
     avg_rank 87.23
-    std_der 9.0
+    std_dev 9.0
+    rank_class 87
   ]
   node [
     id 62
@@ -564,7 +626,8 @@ graph [
     country_code "FRA"
     hand "R"
     avg_rank 38.21
-    std_der 11.0
+    std_dev 11.0
+    rank_class 38
   ]
   node [
     id 63
@@ -573,7 +636,8 @@ graph [
     country_code "BEL"
     hand "R"
     avg_rank 218.53
-    std_der 50.0
+    std_dev 50.0
+    rank_class 218
   ]
   node [
     id 64
@@ -582,7 +646,8 @@ graph [
     country_code "ESP"
     hand "R"
     avg_rank 80.96
-    std_der 17.0
+    std_dev 17.0
+    rank_class 80
   ]
   node [
     id 65
@@ -591,7 +656,8 @@ graph [
     country_code "FRA"
     hand "R"
     avg_rank 38.09
-    std_der 16.0
+    std_dev 16.0
+    rank_class 38
   ]
   node [
     id 66
@@ -600,7 +666,8 @@ graph [
     country_code "TUN"
     hand "R"
     avg_rank 110.26
-    std_der 53.0
+    std_dev 53.0
+    rank_class 110
   ]
   node [
     id 67
@@ -609,7 +676,8 @@ graph [
     country_code "LAT"
     hand "R"
     avg_rank 127.53
-    std_der 57.0
+    std_dev 57.0
+    rank_class 127
   ]
   node [
     id 68
@@ -618,7 +686,8 @@ graph [
     country_code "SRB"
     hand "R"
     avg_rank 42.26
-    std_der 19.0
+    std_dev 19.0
+    rank_class 42
   ]
   node [
     id 69
@@ -627,7 +696,8 @@ graph [
     country_code "ITA"
     hand "R"
     avg_rank 232.89
-    std_der 78.0
+    std_dev 78.0
+    rank_class 232
   ]
   node [
     id 70
@@ -636,7 +706,8 @@ graph [
     country_code "BLR"
     hand "R"
     avg_rank 121.7
-    std_der 19.0
+    std_dev 19.0
+    rank_class 121
   ]
   node [
     id 71
@@ -645,7 +716,8 @@ graph [
     country_code "CZE"
     hand "L"
     avg_rank 110.83
-    std_der 16.0
+    std_dev 16.0
+    rank_class 110
   ]
   node [
     id 72
@@ -654,7 +726,8 @@ graph [
     country_code "USA"
     hand "R"
     avg_rank 173.89
-    std_der 58.0
+    std_dev 58.0
+    rank_class 173
   ]
   node [
     id 73
@@ -663,7 +736,8 @@ graph [
     country_code "IND"
     hand "R"
     avg_rank 160.66
-    std_der 21.0
+    std_dev 21.0
+    rank_class 160
   ]
   node [
     id 74
@@ -672,7 +746,8 @@ graph [
     country_code "RUS"
     hand "R"
     avg_rank 118.4
-    std_der 14.0
+    std_dev 14.0
+    rank_class 118
   ]
   node [
     id 75
@@ -681,7 +756,8 @@ graph [
     country_code "KOR"
     hand "R"
     avg_rank 121.66
-    std_der 39.0
+    std_dev 39.0
+    rank_class 121
   ]
   node [
     id 76
@@ -690,7 +766,8 @@ graph [
     country_code "IND"
     hand "R"
     avg_rank 477.55
-    std_der 91.0
+    std_dev 91.0
+    rank_class 477
   ]
   node [
     id 77
@@ -699,7 +776,8 @@ graph [
     country_code "UZB"
     hand "R"
     avg_rank 134.06
-    std_der 37.0
+    std_dev 37.0
+    rank_class 134
   ]
   node [
     id 78
@@ -708,7 +786,8 @@ graph [
     country_code "MDA"
     hand "R"
     avg_rank 50.23
-    std_der 15.0
+    std_dev 15.0
+    rank_class 50
   ]
   node [
     id 79
@@ -717,7 +796,8 @@ graph [
     country_code "POL"
     hand "R"
     avg_rank 48.68
-    std_der 14.0
+    std_dev 14.0
+    rank_class 48
   ]
   node [
     id 80
@@ -726,7 +806,8 @@ graph [
     country_code "FRA"
     hand "R"
     avg_rank 122.89
-    std_der 17.0
+    std_dev 17.0
+    rank_class 122
   ]
   node [
     id 81
@@ -735,7 +816,8 @@ graph [
     country_code "BRA"
     hand "L"
     avg_rank 105.3
-    std_der 12.0
+    std_dev 12.0
+    rank_class 105
   ]
   node [
     id 82
@@ -744,7 +826,8 @@ graph [
     country_code "ESP"
     hand "R"
     avg_rank 84.74
-    std_der 14.0
+    std_dev 14.0
+    rank_class 84
   ]
   node [
     id 83
@@ -753,7 +836,8 @@ graph [
     country_code "IND"
     hand "L"
     avg_rank 95.3
-    std_der 14.0
+    std_dev 14.0
+    rank_class 95
   ]
   node [
     id 84
@@ -762,7 +846,8 @@ graph [
     country_code "ESP"
     hand "R"
     avg_rank 107.32
-    std_der 6.0
+    std_dev 6.0
+    rank_class 107
   ]
   node [
     id 85
@@ -771,7 +856,8 @@ graph [
     country_code "ESP"
     hand "R"
     avg_rank 74.28
-    std_der 13.0
+    std_dev 13.0
+    rank_class 74
   ]
   node [
     id 86
@@ -780,7 +866,8 @@ graph [
     country_code "CAN"
     hand "R"
     avg_rank 36.4
-    std_der 28.0
+    std_dev 28.0
+    rank_class 36
   ]
   node [
     id 87
@@ -789,7 +876,8 @@ graph [
     country_code "POR"
     hand "R"
     avg_rank 118.0
-    std_der 15.0
+    std_dev 15.0
+    rank_class 118
   ]
   node [
     id 88
@@ -798,7 +886,8 @@ graph [
     country_code "GBR"
     hand "L"
     avg_rank 56.74
-    std_der 9.0
+    std_dev 9.0
+    rank_class 56
   ]
   node [
     id 89
@@ -807,7 +896,8 @@ graph [
     country_code "ESP"
     hand "R"
     avg_rank 38.06
-    std_der 15.0
+    std_dev 15.0
+    rank_class 38
   ]
   node [
     id 90
@@ -816,7 +906,8 @@ graph [
     country_code "ITA"
     hand "R"
     avg_rank 12.6
-    std_der 2.0
+    std_dev 2.0
+    rank_class 12
   ]
   node [
     id 91
@@ -825,7 +916,8 @@ graph [
     country_code "USA"
     hand "R"
     avg_rank 13.74
-    std_der 4.0
+    std_dev 4.0
+    rank_class 13
   ]
   node [
     id 92
@@ -834,7 +926,8 @@ graph [
     country_code "POR"
     hand "R"
     avg_rank 54.79
-    std_der 11.0
+    std_dev 11.0
+    rank_class 54
   ]
   node [
     id 93
@@ -843,7 +936,8 @@ graph [
     country_code "ESP"
     hand "R"
     avg_rank 162.48
-    std_der 34.0
+    std_dev 34.0
+    rank_class 162
   ]
   node [
     id 94
@@ -852,7 +946,8 @@ graph [
     country_code "NZL"
     hand "R"
     avg_rank 469.66
-    std_der 139.0
+    std_dev 139.0
+    rank_class 469
   ]
   node [
     id 95
@@ -861,7 +956,8 @@ graph [
     country_code "CAN"
     hand "L"
     avg_rank 24.72
-    std_der 6.0
+    std_dev 6.0
+    rank_class 24
   ]
   node [
     id 96
@@ -870,7 +966,8 @@ graph [
     country_code "USA"
     hand "R"
     avg_rank 69.02
-    std_der 22.0
+    std_dev 22.0
+    rank_class 69
   ]
   node [
     id 97
@@ -879,7 +976,8 @@ graph [
     country_code "USA"
     hand "R"
     avg_rank 92.23
-    std_der 26.0
+    std_dev 26.0
+    rank_class 92
   ]
   node [
     id 98
@@ -888,7 +986,8 @@ graph [
     country_code "URU"
     hand "R"
     avg_rank 56.87
-    std_der 16.0
+    std_dev 16.0
+    rank_class 56
   ]
   node [
     id 99
@@ -897,7 +996,8 @@ graph [
     country_code "USA"
     hand "L"
     avg_rank 98.94
-    std_der 17.0
+    std_dev 17.0
+    rank_class 98
   ]
   node [
     id 100
@@ -906,7 +1006,8 @@ graph [
     country_code "ARG"
     hand "R"
     avg_rank 19.89
-    std_der 4.0
+    std_dev 4.0
+    rank_class 19
   ]
   node [
     id 101
@@ -915,7 +1016,8 @@ graph [
     country_code "GRE"
     hand "R"
     avg_rank 7.85
-    std_der 2.0
+    std_dev 2.0
+    rank_class 7
   ]
   node [
     id 102
@@ -924,7 +1026,8 @@ graph [
     country_code "ARG"
     hand "R"
     avg_rank 104.83
-    std_der 19.0
+    std_dev 19.0
+    rank_class 104
   ]
   node [
     id 103
@@ -933,7 +1036,8 @@ graph [
     country_code "SVK"
     hand "L"
     avg_rank 82.91
-    std_der 40.0
+    std_dev 40.0
+    rank_class 82
   ]
   node [
     id 104
@@ -942,7 +1046,8 @@ graph [
     country_code "USA"
     hand "R"
     avg_rank 52.51
-    std_der 10.0
+    std_dev 10.0
+    rank_class 52
   ]
   node [
     id 105
@@ -951,7 +1056,8 @@ graph [
     country_code "USA"
     hand "R"
     avg_rank 53.66
-    std_der 18.0
+    std_dev 18.0
+    rank_class 53
   ]
   node [
     id 106
@@ -960,7 +1066,8 @@ graph [
     country_code "AUS"
     hand "R"
     avg_rank 118.7
-    std_der 76.0
+    std_dev 76.0
+    rank_class 118
   ]
   node [
     id 107
@@ -969,7 +1076,8 @@ graph [
     country_code "FRA"
     hand "R"
     avg_rank 25.51
-    std_der 4.0
+    std_dev 4.0
+    rank_class 25
   ]
   node [
     id 108
@@ -978,7 +1086,8 @@ graph [
     country_code "USA"
     hand "R"
     avg_rank 40.02
-    std_der 7.0
+    std_dev 7.0
+    rank_class 40
   ]
   node [
     id 109
@@ -987,7 +1096,8 @@ graph [
     country_code "ESP"
     hand "L"
     avg_rank 1.81
-    std_der 0.0
+    std_dev 0.0
+    rank_class 1
   ]
   node [
     id 110
@@ -996,7 +1106,8 @@ graph [
     country_code "SUI"
     hand "R"
     avg_rank 3.55
-    std_der 1.0
+    std_dev 1.0
+    rank_class 3
   ]
   node [
     id 111
@@ -1005,7 +1116,8 @@ graph [
     country_code "GER"
     hand "R"
     avg_rank 5.04
-    std_der 2.0
+    std_dev 2.0
+    rank_class 5
   ]
   node [
     id 112
@@ -1014,7 +1126,8 @@ graph [
     country_code "CRO"
     hand "R"
     avg_rank 20.38
-    std_der 11.0
+    std_dev 11.0
+    rank_class 20
   ]
   node [
     id 113
@@ -1023,7 +1136,8 @@ graph [
     country_code "CRO"
     hand "R"
     avg_rank 17.04
-    std_der 6.0
+    std_dev 6.0
+    rank_class 17
   ]
   node [
     id 114
@@ -1032,7 +1146,8 @@ graph [
     country_code "SRB"
     hand "R"
     avg_rank 63.49
-    std_der 23.0
+    std_dev 23.0
+    rank_class 63
   ]
   node [
     id 115
@@ -1041,7 +1156,8 @@ graph [
     country_code "FRA"
     hand "R"
     avg_rank 16.91
-    std_der 7.0
+    std_dev 7.0
+    rank_class 16
   ]
   node [
     id 116
@@ -1050,7 +1166,8 @@ graph [
     country_code "USA"
     hand "R"
     avg_rank 182.04
-    std_der 17.0
+    std_dev 17.0
+    rank_class 182
   ]
   node [
     id 117
@@ -1059,7 +1176,8 @@ graph [
     country_code "GBR"
     hand "R"
     avg_rank 74.87
-    std_der 40.0
+    std_dev 40.0
+    rank_class 74
   ]
   node [
     id 118
@@ -1068,7 +1186,8 @@ graph [
     country_code "POL"
     hand "R"
     avg_rank 115.32
-    std_der 27.0
+    std_dev 27.0
+    rank_class 115
   ]
   node [
     id 119
@@ -1077,7 +1196,8 @@ graph [
     country_code "SRB"
     hand "R"
     avg_rank 189.91
-    std_der 39.0
+    std_dev 39.0
+    rank_class 189
   ]
   node [
     id 120
@@ -1086,7 +1206,8 @@ graph [
     country_code "RSA"
     hand "R"
     avg_rank 97.66
-    std_der 9.0
+    std_dev 9.0
+    rank_class 97
   ]
   node [
     id 121
@@ -1095,7 +1216,8 @@ graph [
     country_code "GER"
     hand "R"
     avg_rank 166.83
-    std_der 14.0
+    std_dev 14.0
+    rank_class 166
   ]
   node [
     id 122
@@ -1104,7 +1226,8 @@ graph [
     country_code "USA"
     hand "R"
     avg_rank 189.32
-    std_der 25.0
+    std_dev 25.0
+    rank_class 189
   ]
   node [
     id 123
@@ -1113,7 +1236,8 @@ graph [
     country_code "ITA"
     hand "U"
     avg_rank 106.15
-    std_der 24.0
+    std_dev 24.0
+    rank_class 106
   ]
   node [
     id 124
@@ -1122,7 +1246,8 @@ graph [
     country_code "ITA"
     hand "R"
     avg_rank 247.62
-    std_der 84.0
+    std_dev 84.0
+    rank_class 247
   ]
   node [
     id 125
@@ -1131,7 +1256,8 @@ graph [
     country_code "SUI"
     hand "R"
     avg_rank 114.96
-    std_der 16.0
+    std_dev 16.0
+    rank_class 114
   ]
   node [
     id 126
@@ -1140,7 +1266,8 @@ graph [
     country_code "USA"
     hand "R"
     avg_rank 146.64
-    std_der 31.0
+    std_dev 31.0
+    rank_class 146
   ]
   node [
     id 127
@@ -1149,7 +1276,8 @@ graph [
     country_code "JPN"
     hand "R"
     avg_rank 145.89
-    std_der 9.0
+    std_dev 9.0
+    rank_class 145
   ]
   node [
     id 128
@@ -1158,7 +1286,8 @@ graph [
     country_code "FRA"
     hand "R"
     avg_rank 286.23
-    std_der 65.0
+    std_dev 65.0
+    rank_class 286
   ]
   node [
     id 129
@@ -1167,7 +1296,8 @@ graph [
     country_code "CHN"
     hand "R"
     avg_rank 232.06
-    std_der 22.0
+    std_dev 22.0
+    rank_class 232
   ]
   node [
     id 130
@@ -1176,7 +1306,8 @@ graph [
     country_code "USA"
     hand "R"
     avg_rank 162.11
-    std_der 40.0
+    std_dev 40.0
+    rank_class 162
   ]
   node [
     id 131
@@ -1185,7 +1316,8 @@ graph [
     country_code "ITA"
     hand "R"
     avg_rank 96.68
-    std_der 11.0
+    std_dev 11.0
+    rank_class 96
   ]
   node [
     id 132
@@ -1194,7 +1326,8 @@ graph [
     country_code "AUS"
     hand "R"
     avg_rank 200.23
-    std_der 48.0
+    std_dev 48.0
+    rank_class 200
   ]
   node [
     id 133
@@ -1203,7 +1336,8 @@ graph [
     country_code "AUS"
     hand "U"
     avg_rank 167.49
-    std_der 25.0
+    std_dev 25.0
+    rank_class 167
   ]
   node [
     id 134
@@ -1212,7 +1346,8 @@ graph [
     country_code "AUS"
     hand "R"
     avg_rank 117.53
-    std_der 45.0
+    std_dev 45.0
+    rank_class 117
   ]
   node [
     id 135
@@ -1221,7 +1356,8 @@ graph [
     country_code "SRB"
     hand "R"
     avg_rank 302.98
-    std_der 89.0
+    std_dev 89.0
+    rank_class 302
   ]
   node [
     id 136
@@ -1230,7 +1366,8 @@ graph [
     country_code "CHI"
     hand "R"
     avg_rank 47.74
-    std_der 22.0
+    std_dev 22.0
+    rank_class 47
   ]
   node [
     id 137
@@ -1239,7 +1376,8 @@ graph [
     country_code "KAZ"
     hand "R"
     avg_rank 52.72
-    std_der 9.0
+    std_dev 9.0
+    rank_class 52
   ]
   node [
     id 138
@@ -1248,7 +1386,8 @@ graph [
     country_code "BIH"
     hand "R"
     avg_rank 213.21
-    std_der 57.0
+    std_dev 57.0
+    rank_class 213
   ]
   node [
     id 139
@@ -1257,7 +1396,8 @@ graph [
     country_code "GER"
     hand "L"
     avg_rank 184.28
-    std_der 97.0
+    std_dev 97.0
+    rank_class 184
   ]
   node [
     id 140
@@ -1266,7 +1406,8 @@ graph [
     country_code "ARG"
     hand "L"
     avg_rank 74.64
-    std_der 5.0
+    std_dev 5.0
+    rank_class 74
   ]
   node [
     id 141
@@ -1275,7 +1416,8 @@ graph [
     country_code "ESP"
     hand "L"
     avg_rank 71.96
-    std_der 18.0
+    std_dev 18.0
+    rank_class 71
   ]
   node [
     id 142
@@ -1284,7 +1426,8 @@ graph [
     country_code "ARG"
     hand "R"
     avg_rank 65.21
-    std_der 17.0
+    std_dev 17.0
+    rank_class 65
   ]
   node [
     id 143
@@ -1293,7 +1436,8 @@ graph [
     country_code "ARG"
     hand "R"
     avg_rank 264.13
-    std_der 46.0
+    std_dev 46.0
+    rank_class 264
   ]
   node [
     id 144
@@ -1302,7 +1446,8 @@ graph [
     country_code "ITA"
     hand "L"
     avg_rank 157.77
-    std_der 8.0
+    std_dev 8.0
+    rank_class 157
   ]
   node [
     id 145
@@ -1311,7 +1456,8 @@ graph [
     country_code "ITA"
     hand "R"
     avg_rank 70.57
-    std_der 23.0
+    std_dev 23.0
+    rank_class 70
   ]
   node [
     id 146
@@ -1320,7 +1466,8 @@ graph [
     country_code "ARG"
     hand "L"
     avg_rank 146.87
-    std_der 11.0
+    std_dev 11.0
+    rank_class 146
   ]
   node [
     id 147
@@ -1329,7 +1476,8 @@ graph [
     country_code "ARG"
     hand "R"
     avg_rank 251.72
-    std_der 128.0
+    std_dev 128.0
+    rank_class 251
   ]
   node [
     id 148
@@ -1338,7 +1486,8 @@ graph [
     country_code "BRA"
     hand "R"
     avg_rank 343.36
-    std_der 72.0
+    std_dev 72.0
+    rank_class 343
   ]
   node [
     id 149
@@ -1347,7 +1496,8 @@ graph [
     country_code "BOL"
     hand "R"
     avg_rank 88.38
-    std_der 14.0
+    std_dev 14.0
+    rank_class 88
   ]
   node [
     id 150
@@ -1356,7 +1506,8 @@ graph [
     country_code "SVK"
     hand "R"
     avg_rank 157.91
-    std_der 55.0
+    std_dev 55.0
+    rank_class 157
   ]
   node [
     id 151
@@ -1365,7 +1516,8 @@ graph [
     country_code "CYP"
     hand "R"
     avg_rank 149.91
-    std_der 21.0
+    std_dev 21.0
+    rank_class 149
   ]
   node [
     id 152
@@ -1374,7 +1526,8 @@ graph [
     country_code "BEL"
     hand "L"
     avg_rank 188.55
-    std_der 43.0
+    std_dev 43.0
+    rank_class 188
   ]
   node [
     id 153
@@ -1383,7 +1536,8 @@ graph [
     country_code "ESP"
     hand "R"
     avg_rank 175.91
-    std_der 41.0
+    std_dev 41.0
+    rank_class 175
   ]
   node [
     id 154
@@ -1392,7 +1546,8 @@ graph [
     country_code "GER"
     hand "R"
     avg_rank 151.45
-    std_der 39.0
+    std_dev 39.0
+    rank_class 151
   ]
   node [
     id 155
@@ -1401,7 +1556,8 @@ graph [
     country_code "FRA"
     hand "R"
     avg_rank 195.74
-    std_der 33.0
+    std_dev 33.0
+    rank_class 195
   ]
   node [
     id 156
@@ -1410,7 +1566,8 @@ graph [
     country_code "GER"
     hand "U"
     avg_rank 117.7
-    std_der 9.0
+    std_dev 9.0
+    rank_class 117
   ]
   node [
     id 157
@@ -1419,7 +1576,8 @@ graph [
     country_code "GER"
     hand "R"
     avg_rank 292.57
-    std_der 125.0
+    std_dev 125.0
+    rank_class 292
   ]
   node [
     id 158
@@ -1428,7 +1586,8 @@ graph [
     country_code "BUL"
     hand "R"
     avg_rank 503.4
-    std_der 16.0
+    std_dev 16.0
+    rank_class 503
   ]
   node [
     id 159
@@ -1437,7 +1596,8 @@ graph [
     country_code "BUL"
     hand "U"
     avg_rank 795.24
-    std_der 129.0
+    std_dev 129.0
+    rank_class 795
   ]
   node [
     id 160
@@ -1446,7 +1606,8 @@ graph [
     country_code "BUL"
     hand "R"
     avg_rank 349.21
-    std_der 52.0
+    std_dev 52.0
+    rank_class 349
   ]
   node [
     id 161
@@ -1455,7 +1616,8 @@ graph [
     country_code "ESA"
     hand "R"
     avg_rank 296.13
-    std_der 51.0
+    std_dev 51.0
+    rank_class 296
   ]
   node [
     id 162
@@ -1464,7 +1626,8 @@ graph [
     country_code "BRA"
     hand "R"
     avg_rank 200.17
-    std_der 38.0
+    std_dev 38.0
+    rank_class 200
   ]
   node [
     id 163
@@ -1473,7 +1636,8 @@ graph [
     country_code "ARG"
     hand "U"
     avg_rank 313.32
-    std_der 98.0
+    std_dev 98.0
+    rank_class 313
   ]
   node [
     id 164
@@ -1482,7 +1646,8 @@ graph [
     country_code "CAN"
     hand "R"
     avg_rank 111.3
-    std_der 23.0
+    std_dev 23.0
+    rank_class 111
   ]
   node [
     id 165
@@ -1491,7 +1656,8 @@ graph [
     country_code "TPE"
     hand "R"
     avg_rank 128.34
-    std_der 6.0
+    std_dev 6.0
+    rank_class 128
   ]
   node [
     id 166
@@ -1500,7 +1666,8 @@ graph [
     country_code "SVK"
     hand "R"
     avg_rank 171.55
-    std_der 41.0
+    std_dev 41.0
+    rank_class 171
   ]
   node [
     id 167
@@ -1509,7 +1676,8 @@ graph [
     country_code "USA"
     hand "R"
     avg_rank 178.38
-    std_der 26.0
+    std_dev 26.0
+    rank_class 178
   ]
   node [
     id 168
@@ -1518,7 +1686,8 @@ graph [
     country_code "CAN"
     hand "R"
     avg_rank 152.4
-    std_der 27.0
+    std_dev 27.0
+    rank_class 152
   ]
   node [
     id 169
@@ -1527,7 +1696,8 @@ graph [
     country_code "CAN"
     hand "U"
     avg_rank 1239.42
-    std_der 239.0
+    std_dev 239.0
+    rank_class 1239
   ]
   node [
     id 170
@@ -1536,7 +1706,8 @@ graph [
     country_code "NED"
     hand "R"
     avg_rank 194.28
-    std_der 17.0
+    std_dev 17.0
+    rank_class 194
   ]
   node [
     id 171
@@ -1545,7 +1716,8 @@ graph [
     country_code "CRO"
     hand "R"
     avg_rank 513.36
-    std_der 163.0
+    std_dev 163.0
+    rank_class 513
   ]
   node [
     id 172
@@ -1554,7 +1726,8 @@ graph [
     country_code "ARG"
     hand "R"
     avg_rank 45.11
-    std_der 50.0
+    std_dev 50.0
+    rank_class 45
   ]
   node [
     id 173
@@ -1563,7 +1736,8 @@ graph [
     country_code "USA"
     hand "R"
     avg_rank 443.04
-    std_der 250.0
+    std_dev 250.0
+    rank_class 443
   ]
   node [
     id 174
@@ -1572,7 +1746,8 @@ graph [
     country_code "USA"
     hand "R"
     avg_rank 264.87
-    std_der 63.0
+    std_dev 63.0
+    rank_class 264
   ]
   node [
     id 175
@@ -1581,7 +1756,8 @@ graph [
     country_code "BAR"
     hand "R"
     avg_rank 180.02
-    std_der 16.0
+    std_dev 16.0
+    rank_class 180
   ]
   node [
     id 176
@@ -1590,7 +1766,8 @@ graph [
     country_code "JPN"
     hand "U"
     avg_rank 223.94
-    std_der 38.0
+    std_dev 38.0
+    rank_class 223
   ]
   node [
     id 177
@@ -1599,7 +1776,8 @@ graph [
     country_code "FRA"
     hand "R"
     avg_rank 108.34
-    std_der 21.0
+    std_dev 21.0
+    rank_class 108
   ]
   node [
     id 178
@@ -1608,7 +1786,8 @@ graph [
     country_code "FRA"
     hand "R"
     avg_rank 194.49
-    std_der 25.0
+    std_dev 25.0
+    rank_class 194
   ]
   node [
     id 179
@@ -1617,7 +1796,8 @@ graph [
     country_code "BLR"
     hand "R"
     avg_rank 129.64
-    std_der 25.0
+    std_dev 25.0
+    rank_class 129
   ]
   node [
     id 180
@@ -1626,7 +1806,8 @@ graph [
     country_code "NOR"
     hand "R"
     avg_rank 73.09
-    std_der 24.0
+    std_dev 24.0
+    rank_class 73
   ]
   node [
     id 181
@@ -1635,7 +1816,8 @@ graph [
     country_code "SWE"
     hand "R"
     avg_rank 126.55
-    std_der 21.0
+    std_dev 21.0
+    rank_class 126
   ]
   node [
     id 182
@@ -1644,7 +1826,8 @@ graph [
     country_code "MEX"
     hand "U"
     avg_rank 546.47
-    std_der 19.0
+    std_dev 19.0
+    rank_class 546
   ]
   node [
     id 183
@@ -1653,7 +1836,8 @@ graph [
     country_code "ITA"
     hand "R"
     avg_rank 182.34
-    std_der 30.0
+    std_dev 30.0
+    rank_class 182
   ]
   node [
     id 184
@@ -1662,7 +1846,8 @@ graph [
     country_code "USA"
     hand "U"
     avg_rank 793.19
-    std_der 182.0
+    std_dev 182.0
+    rank_class 793
   ]
   node [
     id 185
@@ -1671,7 +1856,8 @@ graph [
     country_code "FRA"
     hand "L"
     avg_rank 105.49
-    std_der 24.0
+    std_dev 24.0
+    rank_class 105
   ]
   node [
     id 186
@@ -1680,7 +1866,8 @@ graph [
     country_code "EGY"
     hand "R"
     avg_rank 213.23
-    std_der 23.0
+    std_dev 23.0
+    rank_class 213
   ]
   node [
     id 187
@@ -1689,7 +1876,8 @@ graph [
     country_code "ARG"
     hand "R"
     avg_rank 168.3
-    std_der 40.0
+    std_dev 40.0
+    rank_class 168
   ]
   node [
     id 188
@@ -1698,7 +1886,8 @@ graph [
     country_code "ESP"
     hand "R"
     avg_rank 154.49
-    std_der 14.0
+    std_dev 14.0
+    rank_class 154
   ]
   node [
     id 189
@@ -1707,7 +1896,8 @@ graph [
     country_code "BRA"
     hand "U"
     avg_rank 368.51
-    std_der 38.0
+    std_dev 38.0
+    rank_class 368
   ]
   node [
     id 190
@@ -1716,7 +1906,8 @@ graph [
     country_code "USA"
     hand "R"
     avg_rank 155.23
-    std_der 41.0
+    std_dev 41.0
+    rank_class 155
   ]
   node [
     id 191
@@ -1725,7 +1916,8 @@ graph [
     country_code "USA"
     hand "L"
     avg_rank 213.32
-    std_der 18.0
+    std_dev 18.0
+    rank_class 213
   ]
   node [
     id 192
@@ -1734,7 +1926,8 @@ graph [
     country_code "KAZ"
     hand "R"
     avg_rank 89.77
-    std_der 37.0
+    std_dev 37.0
+    rank_class 89
   ]
   node [
     id 193
@@ -1743,7 +1936,8 @@ graph [
     country_code "ESP"
     hand "R"
     avg_rank 227.62
-    std_der 32.0
+    std_dev 32.0
+    rank_class 227
   ]
   node [
     id 194
@@ -1752,7 +1946,8 @@ graph [
     country_code "TPE"
     hand "R"
     avg_rank 387.79
-    std_der 58.0
+    std_dev 58.0
+    rank_class 387
   ]
   node [
     id 195
@@ -1761,7 +1956,8 @@ graph [
     country_code "SWE"
     hand "R"
     avg_rank 130.6
-    std_der 48.0
+    std_dev 48.0
+    rank_class 130
   ]
   node [
     id 196
@@ -1770,7 +1966,8 @@ graph [
     country_code "COL"
     hand "U"
     avg_rank 206.98
-    std_der 16.0
+    std_dev 16.0
+    rank_class 206
   ]
   node [
     id 197
@@ -1779,7 +1976,8 @@ graph [
     country_code "COL"
     hand "R"
     avg_rank 239.87
-    std_der 23.0
+    std_dev 23.0
+    rank_class 239
   ]
   node [
     id 198
@@ -1788,7 +1986,8 @@ graph [
     country_code "SRB"
     hand "R"
     avg_rank 214.3
-    std_der 25.0
+    std_dev 25.0
+    rank_class 214
   ]
   node [
     id 199
@@ -1797,7 +1996,8 @@ graph [
     country_code "GER"
     hand "L"
     avg_rank 280.17
-    std_der 136.0
+    std_dev 136.0
+    rank_class 280
   ]
   node [
     id 200
@@ -1806,7 +2006,8 @@ graph [
     country_code "SVK"
     hand "R"
     avg_rank 169.66
-    std_der 76.0
+    std_dev 76.0
+    rank_class 169
   ]
   node [
     id 201
@@ -1815,7 +2016,8 @@ graph [
     country_code "ESP"
     hand "R"
     avg_rank 138.26
-    std_der 47.0
+    std_dev 47.0
+    rank_class 138
   ]
   node [
     id 202
@@ -1824,7 +2026,8 @@ graph [
     country_code "MON"
     hand "R"
     avg_rank 514.21
-    std_der 36.0
+    std_dev 36.0
+    rank_class 514
   ]
   node [
     id 203
@@ -1833,7 +2036,8 @@ graph [
     country_code "HUN"
     hand "R"
     avg_rank 187.87
-    std_der 54.0
+    std_dev 54.0
+    rank_class 187
   ]
   node [
     id 204
@@ -1842,7 +2046,8 @@ graph [
     country_code "ITA"
     hand "U"
     avg_rank 229.45
-    std_der 148.0
+    std_dev 148.0
+    rank_class 229
   ]
   node [
     id 205
@@ -1851,7 +2056,8 @@ graph [
     country_code "HUN"
     hand "R"
     avg_rank 403.77
-    std_der 106.0
+    std_dev 106.0
+    rank_class 403
   ]
   node [
     id 206
@@ -1860,7 +2066,8 @@ graph [
     country_code "POR"
     hand "R"
     avg_rank 191.26
-    std_der 23.0
+    std_dev 23.0
+    rank_class 191
   ]
   node [
     id 207
@@ -1869,7 +2076,8 @@ graph [
     country_code "ITA"
     hand "R"
     avg_rank 173.19
-    std_der 32.0
+    std_dev 32.0
+    rank_class 173
   ]
   node [
     id 208
@@ -1878,7 +2086,8 @@ graph [
     country_code "ITA"
     hand "R"
     avg_rank 127.13
-    std_der 28.0
+    std_dev 28.0
+    rank_class 127
   ]
   node [
     id 209
@@ -1887,7 +2096,8 @@ graph [
     country_code "FRA"
     hand "R"
     avg_rank 44.81
-    std_der 14.0
+    std_dev 14.0
+    rank_class 44
   ]
   node [
     id 210
@@ -1896,7 +2106,8 @@ graph [
     country_code "ITA"
     hand "L"
     avg_rank 460.17
-    std_der 73.0
+    std_dev 73.0
+    rank_class 460
   ]
   node [
     id 211
@@ -1905,7 +2116,8 @@ graph [
     country_code "ESP"
     hand "R"
     avg_rank 236.85
-    std_der 23.0
+    std_dev 23.0
+    rank_class 236
   ]
   node [
     id 212
@@ -1914,7 +2126,8 @@ graph [
     country_code "FRA"
     hand "R"
     avg_rank 257.19
-    std_der 28.0
+    std_dev 28.0
+    rank_class 257
   ]
   node [
     id 213
@@ -1923,7 +2136,8 @@ graph [
     country_code "CAN"
     hand "R"
     avg_rank 222.57
-    std_der 75.0
+    std_dev 75.0
+    rank_class 222
   ]
   node [
     id 214
@@ -1932,7 +2146,8 @@ graph [
     country_code "FRA"
     hand "U"
     avg_rank 199.13
-    std_der 15.0
+    std_dev 15.0
+    rank_class 199
   ]
   node [
     id 215
@@ -1941,7 +2156,8 @@ graph [
     country_code "CZE"
     hand "R"
     avg_rank 148.49
-    std_der 16.0
+    std_dev 16.0
+    rank_class 148
   ]
   node [
     id 216
@@ -1950,7 +2166,8 @@ graph [
     country_code "FRA"
     hand "U"
     avg_rank 239.15
-    std_der 28.0
+    std_dev 28.0
+    rank_class 239
   ]
   node [
     id 217
@@ -1959,7 +2176,8 @@ graph [
     country_code "SLO"
     hand "L"
     avg_rank 170.32
-    std_der 37.0
+    std_dev 37.0
+    rank_class 170
   ]
   node [
     id 218
@@ -1968,7 +2186,8 @@ graph [
     country_code "USA"
     hand "R"
     avg_rank 134.23
-    std_der 46.0
+    std_dev 46.0
+    rank_class 134
   ]
   node [
     id 219
@@ -1977,7 +2196,8 @@ graph [
     country_code "FRA"
     hand "U"
     avg_rank 285.96
-    std_der 39.0
+    std_dev 39.0
+    rank_class 285
   ]
   node [
     id 220
@@ -1986,7 +2206,8 @@ graph [
     country_code "GER"
     hand "R"
     avg_rank 154.98
-    std_der 10.0
+    std_dev 10.0
+    rank_class 154
   ]
   node [
     id 221
@@ -1995,7 +2216,8 @@ graph [
     country_code "FRA"
     hand "R"
     avg_rank 172.34
-    std_der 24.0
+    std_dev 24.0
+    rank_class 172
   ]
   node [
     id 222
@@ -2004,7 +2226,8 @@ graph [
     country_code "RUS"
     hand "U"
     avg_rank 203.43
-    std_der 14.0
+    std_dev 14.0
+    rank_class 203
   ]
   node [
     id 223
@@ -2013,7 +2236,8 @@ graph [
     country_code "BEL"
     hand "R"
     avg_rank 169.26
-    std_der 21.0
+    std_dev 21.0
+    rank_class 169
   ]
   node [
     id 224
@@ -2022,7 +2246,8 @@ graph [
     country_code "GER"
     hand "U"
     avg_rank 180.81
-    std_der 21.0
+    std_dev 21.0
+    rank_class 180
   ]
   node [
     id 225
@@ -2031,7 +2256,8 @@ graph [
     country_code "NED"
     hand "R"
     avg_rank 370.19
-    std_der 146.0
+    std_dev 146.0
+    rank_class 370
   ]
   node [
     id 226
@@ -2040,7 +2266,8 @@ graph [
     country_code "AUT"
     hand "L"
     avg_rank 252.06
-    std_der 50.0
+    std_dev 50.0
+    rank_class 252
   ]
   node [
     id 227
@@ -2049,7 +2276,8 @@ graph [
     country_code "GER"
     hand "R"
     avg_rank 190.81
-    std_der 27.0
+    std_dev 27.0
+    rank_class 190
   ]
   node [
     id 228
@@ -2058,7 +2286,8 @@ graph [
     country_code "ITA"
     hand "R"
     avg_rank 223.94
-    std_der 21.0
+    std_dev 21.0
+    rank_class 223
   ]
   node [
     id 229
@@ -2067,7 +2296,8 @@ graph [
     country_code "GER"
     hand "L"
     avg_rank 188.79
-    std_der 20.0
+    std_dev 20.0
+    rank_class 188
   ]
   node [
     id 230
@@ -2076,7 +2306,8 @@ graph [
     country_code "GBR"
     hand "R"
     avg_rank 180.72
-    std_der 22.0
+    std_dev 22.0
+    rank_class 180
   ]
   node [
     id 231
@@ -2085,7 +2316,8 @@ graph [
     country_code "GBR"
     hand "R"
     avg_rank 236.28
-    std_der 57.0
+    std_dev 57.0
+    rank_class 236
   ]
   node [
     id 232
@@ -2094,7 +2326,8 @@ graph [
     country_code "TUR"
     hand "U"
     avg_rank 404.72
-    std_der 63.0
+    std_dev 63.0
+    rank_class 404
   ]
   node [
     id 233
@@ -2103,7 +2336,8 @@ graph [
     country_code "GER"
     hand "R"
     avg_rank 343.06
-    std_der 131.0
+    std_dev 131.0
+    rank_class 343
   ]
   node [
     id 234
@@ -2112,7 +2346,8 @@ graph [
     country_code "TUR"
     hand "R"
     avg_rank 540.47
-    std_der 23.0
+    std_dev 23.0
+    rank_class 540
   ]
   node [
     id 235
@@ -2121,7 +2356,8 @@ graph [
     country_code "USA"
     hand "R"
     avg_rank 270.0
-    std_der 19.0
+    std_dev 19.0
+    rank_class 270
   ]
   node [
     id 236
@@ -2130,7 +2366,8 @@ graph [
     country_code "GBR"
     hand "R"
     avg_rank 558.41
-    std_der 71.0
+    std_dev 71.0
+    rank_class 558
   ]
   node [
     id 237
@@ -2139,7 +2376,8 @@ graph [
     country_code "CAN"
     hand "R"
     avg_rank 160.23
-    std_der 44.0
+    std_dev 44.0
+    rank_class 160
   ]
   node [
     id 238
@@ -2148,7 +2386,8 @@ graph [
     country_code "ITA"
     hand "L"
     avg_rank 244.45
-    std_der 59.0
+    std_dev 59.0
+    rank_class 244
   ]
   node [
     id 239
@@ -2157,7 +2396,8 @@ graph [
     country_code "KOR"
     hand "R"
     avg_rank 131.94
-    std_der 51.0
+    std_dev 51.0
+    rank_class 131
   ]
   node [
     id 240
@@ -2166,7 +2406,8 @@ graph [
     country_code "AUT"
     hand "R"
     avg_rank 125.62
-    std_der 18.0
+    std_dev 18.0
+    rank_class 125
   ]
   node [
     id 241
@@ -2175,7 +2416,8 @@ graph [
     country_code "JPN"
     hand "R"
     avg_rank 157.4
-    std_der 44.0
+    std_dev 44.0
+    rank_class 157
   ]
   node [
     id 242
@@ -2184,7 +2426,8 @@ graph [
     country_code "GER"
     hand "L"
     avg_rank 133.21
-    std_der 39.0
+    std_dev 39.0
+    rank_class 133
   ]
   node [
     id 243
@@ -2193,7 +2436,8 @@ graph [
     country_code "ARG"
     hand "R"
     avg_rank 216.55
-    std_der 41.0
+    std_dev 41.0
+    rank_class 216
   ]
   node [
     id 244
@@ -2202,7 +2446,8 @@ graph [
     country_code "GBR"
     hand "R"
     avg_rank 1108.7
-    std_der 28.0
+    std_dev 28.0
+    rank_class 1108
   ]
   node [
     id 245
@@ -2211,7 +2456,8 @@ graph [
     country_code "CRO"
     hand "U"
     avg_rank 273.26
-    std_der 16.0
+    std_dev 16.0
+    rank_class 273
   ]
   node [
     id 246
@@ -2220,7 +2466,8 @@ graph [
     country_code "GER"
     hand "R"
     avg_rank 413.43
-    std_der 92.0
+    std_dev 92.0
+    rank_class 413
   ]
   node [
     id 247
@@ -2229,7 +2476,8 @@ graph [
     country_code "USA"
     hand "U"
     avg_rank 342.04
-    std_der 44.0
+    std_dev 44.0
+    rank_class 342
   ]
   node [
     id 248
@@ -2238,7 +2486,8 @@ graph [
     country_code "ITA"
     hand "U"
     avg_rank 252.94
-    std_der 19.0
+    std_dev 19.0
+    rank_class 252
   ]
   node [
     id 249
@@ -2247,7 +2496,8 @@ graph [
     country_code "ESP"
     hand "R"
     avg_rank 206.43
-    std_der 23.0
+    std_dev 23.0
+    rank_class 206
   ]
   node [
     id 250
@@ -2256,7 +2506,8 @@ graph [
     country_code "SUI"
     hand "R"
     avg_rank 423.06
-    std_der 114.0
+    std_dev 114.0
+    rank_class 423
   ]
   node [
     id 251
@@ -2265,7 +2516,8 @@ graph [
     country_code "SUI"
     hand "U"
     avg_rank 302.85
-    std_der 36.0
+    std_dev 36.0
+    rank_class 302
   ]
   node [
     id 252
@@ -2274,7 +2526,8 @@ graph [
     country_code "GER"
     hand "R"
     avg_rank 324.87
-    std_der 68.0
+    std_dev 68.0
+    rank_class 324
   ]
   node [
     id 253
@@ -2283,7 +2536,8 @@ graph [
     country_code "IND"
     hand "R"
     avg_rank 234.83
-    std_der 91.0
+    std_dev 91.0
+    rank_class 234
   ]
   node [
     id 254
@@ -2292,7 +2546,8 @@ graph [
     country_code "GER"
     hand "U"
     avg_rank 458.54
-    std_der 111.0
+    std_dev 111.0
+    rank_class 458
   ]
   node [
     id 255
@@ -2301,7 +2556,8 @@ graph [
     country_code "AUT"
     hand "R"
     avg_rank 162.09
-    std_der 14.0
+    std_dev 14.0
+    rank_class 162
   ]
   node [
     id 256
@@ -2310,7 +2566,8 @@ graph [
     country_code "AUT"
     hand "R"
     avg_rank 260.11
-    std_der 17.0
+    std_dev 17.0
+    rank_class 260
   ]
   node [
     id 257
@@ -2319,7 +2576,8 @@ graph [
     country_code "MEX"
     hand "U"
     avg_rank 676.15
-    std_der 209.0
+    std_dev 209.0
+    rank_class 676
   ]
   node [
     id 258
@@ -2328,7 +2586,8 @@ graph [
     country_code "SVK"
     hand "R"
     avg_rank 167.94
-    std_der 57.0
+    std_dev 57.0
+    rank_class 167
   ]
   node [
     id 259
@@ -2337,7 +2596,8 @@ graph [
     country_code "USA"
     hand "U"
     avg_rank 234.02
-    std_der 27.0
+    std_dev 27.0
+    rank_class 234
   ]
   node [
     id 260
@@ -2346,7 +2606,8 @@ graph [
     country_code "DEN"
     hand "R"
     avg_rank 204.02
-    std_der 43.0
+    std_dev 43.0
+    rank_class 204
   ]
   node [
     id 261
@@ -2355,7 +2616,8 @@ graph [
     country_code "KOR"
     hand "R"
     avg_rank 235.72
-    std_der 16.0
+    std_dev 16.0
+    rank_class 235
   ]
   node [
     id 262
@@ -2364,7 +2626,8 @@ graph [
     country_code "ISR"
     hand "R"
     avg_rank -1.0
-    std_der -1.0
+    std_dev -1.0
+    rank_class -1
   ]
   node [
     id 263
@@ -2373,7 +2636,8 @@ graph [
     country_code "USA"
     hand "R"
     avg_rank 577.68
-    std_der 87.0
+    std_dev 87.0
+    rank_class 577
   ]
   node [
     id 264
@@ -2382,7 +2646,8 @@ graph [
     country_code "USA"
     hand "U"
     avg_rank 1135.33
-    std_der 215.0
+    std_dev 215.0
+    rank_class 1135
   ]
   node [
     id 265
@@ -2391,7 +2656,8 @@ graph [
     country_code "USA"
     hand "U"
     avg_rank 399.68
-    std_der 127.0
+    std_dev 127.0
+    rank_class 399
   ]
   node [
     id 266
@@ -2400,7 +2666,8 @@ graph [
     country_code "GER"
     hand "R"
     avg_rank 234.4
-    std_der 18.0
+    std_dev 18.0
+    rank_class 234
   ]
   node [
     id 267
@@ -2409,7 +2676,8 @@ graph [
     country_code "USA"
     hand "R"
     avg_rank 243.57
-    std_der 34.0
+    std_dev 34.0
+    rank_class 243
   ]
   node [
     id 268
@@ -2418,7 +2686,8 @@ graph [
     country_code "FRA"
     hand "U"
     avg_rank 473.16
-    std_der 81.0
+    std_dev 81.0
+    rank_class 473
   ]
   node [
     id 269
@@ -2427,7 +2696,8 @@ graph [
     country_code "ITA"
     hand "R"
     avg_rank 241.19
-    std_der 19.0
+    std_dev 19.0
+    rank_class 241
   ]
   node [
     id 270
@@ -2436,7 +2706,8 @@ graph [
     country_code "ISR"
     hand "R"
     avg_rank 178.62
-    std_der 37.0
+    std_dev 37.0
+    rank_class 178
   ]
   node [
     id 271
@@ -2445,7 +2716,8 @@ graph [
     country_code "CHN"
     hand "R"
     avg_rank 300.96
-    std_der 74.0
+    std_dev 74.0
+    rank_class 300
   ]
   node [
     id 272
@@ -2454,7 +2726,8 @@ graph [
     country_code "CHN"
     hand "R"
     avg_rank 343.57
-    std_der 43.0
+    std_dev 43.0
+    rank_class 343
   ]
   node [
     id 273
@@ -2463,7 +2736,8 @@ graph [
     country_code "CHN"
     hand "U"
     avg_rank 279.32
-    std_der 89.0
+    std_dev 89.0
+    rank_class 279
   ]
   node [
     id 274
@@ -2472,7 +2746,8 @@ graph [
     country_code "CHN"
     hand "R"
     avg_rank 272.98
-    std_der 65.0
+    std_dev 65.0
+    rank_class 272
   ]
   node [
     id 275
@@ -2481,7 +2756,8 @@ graph [
     country_code "JPN"
     hand "R"
     avg_rank 167.28
-    std_der 35.0
+    std_dev 35.0
+    rank_class 167
   ]
   node [
     id 276
@@ -2490,7 +2766,8 @@ graph [
     country_code "SRB"
     hand "U"
     avg_rank 162.51
-    std_der 15.0
+    std_dev 15.0
+    rank_class 162
   ]
   node [
     id 277
@@ -2499,7 +2776,8 @@ graph [
     country_code "RUS"
     hand "R"
     avg_rank 417.89
-    std_der 39.0
+    std_dev 39.0
+    rank_class 417
   ]
   node [
     id 278
@@ -2508,7 +2786,8 @@ graph [
     country_code "RUS"
     hand "U"
     avg_rank 1157.71
-    std_der 200.0
+    std_dev 200.0
+    rank_class 1157
   ]
   node [
     id 279
@@ -2517,7 +2796,8 @@ graph [
     country_code "RUS"
     hand "U"
     avg_rank 488.81
-    std_der 69.0
+    std_dev 69.0
+    rank_class 488
   ]
   node [
     id 280
@@ -2526,7 +2806,8 @@ graph [
     country_code "ITA"
     hand "R"
     avg_rank 151.04
-    std_der 40.0
+    std_dev 40.0
+    rank_class 151
   ]
   node [
     id 281
@@ -2535,7 +2816,8 @@ graph [
     country_code "CRO"
     hand "R"
     avg_rank -1.0
-    std_der -1.0
+    std_dev -1.0
+    rank_class -1
   ]
   node [
     id 282
@@ -2544,7 +2826,8 @@ graph [
     country_code "CRO"
     hand "U"
     avg_rank 309.02
-    std_der 19.0
+    std_dev 19.0
+    rank_class 309
   ]
   node [
     id 283
@@ -2553,7 +2836,8 @@ graph [
     country_code "COL"
     hand "R"
     avg_rank 416.79
-    std_der 63.0
+    std_dev 63.0
+    rank_class 416
   ]
   node [
     id 284
@@ -2562,7 +2846,8 @@ graph [
     country_code "NED"
     hand "U"
     avg_rank 381.17
-    std_der 121.0
+    std_dev 121.0
+    rank_class 381
   ]
   node [
     id 285
@@ -2571,7 +2856,8 @@ graph [
     country_code "BRA"
     hand "R"
     avg_rank 275.47
-    std_der 82.0
+    std_dev 82.0
+    rank_class 275
   ]
   node [
     id 286
@@ -2580,7 +2866,8 @@ graph [
     country_code "BAR"
     hand "L"
     avg_rank -1.0
-    std_der -1.0
+    std_dev -1.0
+    rank_class -1
   ]
   node [
     id 287
@@ -2589,7 +2876,8 @@ graph [
     country_code "DOM"
     hand "R"
     avg_rank 279.81
-    std_der 26.0
+    std_dev 26.0
+    rank_class 279
   ]
   node [
     id 288
@@ -2598,7 +2886,8 @@ graph [
     country_code "DOM"
     hand "U"
     avg_rank 274.19
-    std_der 10.0
+    std_dev 10.0
+    rank_class 274
   ]
   node [
     id 289
@@ -2607,7 +2896,8 @@ graph [
     country_code "URU"
     hand "R"
     avg_rank 375.85
-    std_der 79.0
+    std_dev 79.0
+    rank_class 375
   ]
   node [
     id 290
@@ -2616,7 +2906,8 @@ graph [
     country_code "ECU"
     hand "R"
     avg_rank 209.87
-    std_der 72.0
+    std_dev 72.0
+    rank_class 209
   ]
   node [
     id 291
@@ -2625,7 +2916,8 @@ graph [
     country_code "VEN"
     hand "U"
     avg_rank -1.0
-    std_der -1.0
+    std_dev -1.0
+    rank_class -1
   ]
   node [
     id 292
@@ -2634,7 +2926,8 @@ graph [
     country_code "ECU"
     hand "L"
     avg_rank 228.66
-    std_der 34.0
+    std_dev 34.0
+    rank_class 228
   ]
   node [
     id 293
@@ -2643,7 +2936,8 @@ graph [
     country_code "VEN"
     hand "U"
     avg_rank 573.13
-    std_der 2.0
+    std_dev 2.0
+    rank_class 573
   ]
   node [
     id 294
@@ -2652,7 +2946,8 @@ graph [
     country_code "ECU"
     hand "U"
     avg_rank 754.29
-    std_der 19.0
+    std_dev 19.0
+    rank_class 754
   ]
   node [
     id 295
@@ -2661,7 +2956,8 @@ graph [
     country_code "KOR"
     hand "R"
     avg_rank 310.62
-    std_der 48.0
+    std_dev 48.0
+    rank_class 310
   ]
   node [
     id 296
@@ -2670,7 +2966,8 @@ graph [
     country_code "UZB"
     hand "U"
     avg_rank 454.77
-    std_der 75.0
+    std_dev 75.0
+    rank_class 454
   ]
   node [
     id 297
@@ -2679,7 +2976,8 @@ graph [
     country_code "LIB"
     hand NAN
     avg_rank 710.24
-    std_der 29.0
+    std_dev 29.0
+    rank_class 710
   ]
   node [
     id 298
@@ -2688,7 +2986,8 @@ graph [
     country_code "GER"
     hand "U"
     avg_rank 331.23
-    std_der 30.0
+    std_dev 30.0
+    rank_class 331
   ]
   node [
     id 299
@@ -2697,7 +2996,8 @@ graph [
     country_code "UZB"
     hand "U"
     avg_rank 376.28
-    std_der 29.0
+    std_dev 29.0
+    rank_class 376
   ]
   node [
     id 300
@@ -2706,7 +3006,8 @@ graph [
     country_code "UZB"
     hand "U"
     avg_rank 720.24
-    std_der 125.0
+    std_dev 125.0
+    rank_class 720
   ]
   node [
     id 301
@@ -2715,7 +3016,8 @@ graph [
     country_code "FIN"
     hand "U"
     avg_rank 574.09
-    std_der 49.0
+    std_dev 49.0
+    rank_class 574
   ]
   node [
     id 302
@@ -2724,7 +3026,8 @@ graph [
     country_code "FIN"
     hand "R"
     avg_rank 280.23
-    std_der 121.0
+    std_dev 121.0
+    rank_class 280
   ]
   node [
     id 303
@@ -2733,7 +3036,8 @@ graph [
     country_code "FIN"
     hand "R"
     avg_rank 538.02
-    std_der 156.0
+    std_dev 156.0
+    rank_class 538
   ]
   node [
     id 304
@@ -2742,7 +3046,8 @@ graph [
     country_code "CZE"
     hand "R"
     avg_rank 563.77
-    std_der 53.0
+    std_dev 53.0
+    rank_class 563
   ]
   node [
     id 305
@@ -2751,7 +3056,8 @@ graph [
     country_code "BIH"
     hand "R"
     avg_rank 400.04
-    std_der 115.0
+    std_dev 115.0
+    rank_class 400
   ]
   node [
     id 306
@@ -2760,7 +3066,8 @@ graph [
     country_code "UKR"
     hand "R"
     avg_rank 355.11
-    std_der 64.0
+    std_dev 64.0
+    rank_class 355
   ]
   node [
     id 307
@@ -2769,7 +3076,8 @@ graph [
     country_code "ISR"
     hand "U"
     avg_rank 422.3
-    std_der 33.0
+    std_dev 33.0
+    rank_class 422
   ]
   node [
     id 308
@@ -2778,7 +3086,8 @@ graph [
     country_code "SWE"
     hand "R"
     avg_rank 370.62
-    std_der 71.0
+    std_dev 71.0
+    rank_class 370
   ]
   node [
     id 309
@@ -2787,7 +3096,8 @@ graph [
     country_code "ISR"
     hand "U"
     avg_rank 856.9
-    std_der 76.0
+    std_dev 76.0
+    rank_class 856
   ]
   node [
     id 310
@@ -2796,7 +3106,8 @@ graph [
     country_code "GUA"
     hand NAN
     avg_rank -1.0
-    std_der -1.0
+    std_dev -1.0
+    rank_class -1
   ]
   node [
     id 311
@@ -2805,7 +3116,8 @@ graph [
     country_code "GUA"
     hand "R"
     avg_rank 1065.86
-    std_der 17.0
+    std_dev 17.0
+    rank_class 1065
   ]
   node [
     id 312
@@ -2814,7 +3126,8 @@ graph [
     country_code "BOL"
     hand "U"
     avg_rank 585.76
-    std_der 45.0
+    std_dev 45.0
+    rank_class 585
   ]
   node [
     id 313
@@ -2823,7 +3136,8 @@ graph [
     country_code "GUA"
     hand "R"
     avg_rank -1.0
-    std_der -1.0
+    std_dev -1.0
+    rank_class -1
   ]
   node [
     id 314
@@ -2832,7 +3146,8 @@ graph [
     country_code "MEX"
     hand "R"
     avg_rank 645.96
-    std_der 171.0
+    std_dev 171.0
+    rank_class 645
   ]
   node [
     id 315
@@ -2841,7 +3156,8 @@ graph [
     country_code "PAR"
     hand "R"
     avg_rank -1.0
-    std_der -1.0
+    std_dev -1.0
+    rank_class -1
   ]
   node [
     id 316
@@ -2850,7 +3166,8 @@ graph [
     country_code "PAR"
     hand "R"
     avg_rank -1.0
-    std_der -1.0
+    std_dev -1.0
+    rank_class -1
   ]
   node [
     id 317
@@ -2859,7 +3176,8 @@ graph [
     country_code "PAR"
     hand "U"
     avg_rank -1.0
-    std_der -1.0
+    std_dev -1.0
+    rank_class -1
   ]
   node [
     id 318
@@ -2868,7 +3186,8 @@ graph [
     country_code "PER"
     hand "R"
     avg_rank 300.19
-    std_der 93.0
+    std_dev 93.0
+    rank_class 300
   ]
   node [
     id 319
@@ -2877,7 +3196,8 @@ graph [
     country_code "ESA"
     hand "U"
     avg_rank -1.0
-    std_der -1.0
+    std_dev -1.0
+    rank_class -1
   ]
   node [
     id 320
@@ -2886,7 +3206,8 @@ graph [
     country_code "PER"
     hand "R"
     avg_rank 453.49
-    std_der 90.0
+    std_dev 90.0
+    rank_class 453
   ]
   node [
     id 321
@@ -2895,7 +3216,8 @@ graph [
     country_code "USA"
     hand "U"
     avg_rank -1.0
-    std_der -1.0
+    std_dev -1.0
+    rank_class -1
   ]
   node [
     id 322
@@ -2904,7 +3226,8 @@ graph [
     country_code "NZL"
     hand "R"
     avg_rank 886.62
-    std_der 151.0
+    std_dev 151.0
+    rank_class 886
   ]
   node [
     id 323
@@ -2913,7 +3236,8 @@ graph [
     country_code "INA"
     hand "U"
     avg_rank -1.0
-    std_der -1.0
+    std_dev -1.0
+    rank_class -1
   ]
   node [
     id 324
@@ -2922,7 +3246,8 @@ graph [
     country_code "GBR"
     hand "R"
     avg_rank 911.0
-    std_der 55.0
+    std_dev 55.0
+    rank_class 911
   ]
   node [
     id 325
@@ -2931,7 +3256,8 @@ graph [
     country_code "INA"
     hand "U"
     avg_rank 1291.1
-    std_der 94.0
+    std_dev 94.0
+    rank_class 1291
   ]
   node [
     id 326
@@ -2940,7 +3266,8 @@ graph [
     country_code "INA"
     hand "U"
     avg_rank -1.0
-    std_der -1.0
+    std_dev -1.0
+    rank_class -1
   ]
   node [
     id 327
@@ -2949,7 +3276,8 @@ graph [
     country_code "THA"
     hand "U"
     avg_rank 1116.86
-    std_der 69.0
+    std_dev 69.0
+    rank_class 1116
   ]
   node [
     id 328
@@ -2958,7 +3286,8 @@ graph [
     country_code "PHI"
     hand "R"
     avg_rank 1430.71
-    std_der 8.0
+    std_dev 8.0
+    rank_class 1430
   ]
   node [
     id 329
@@ -2967,7 +3296,8 @@ graph [
     country_code "THA"
     hand "R"
     avg_rank 555.51
-    std_der 74.0
+    std_dev 74.0
+    rank_class 555
   ]
   node [
     id 330
@@ -2976,7 +3306,8 @@ graph [
     country_code "PHI"
     hand "R"
     avg_rank -1.0
-    std_der -1.0
+    std_dev -1.0
+    rank_class -1
   ]
   node [
     id 331
@@ -2985,7 +3316,8 @@ graph [
     country_code "PHI"
     hand "U"
     avg_rank -1.0
-    std_der -1.0
+    std_dev -1.0
+    rank_class -1
   ]
   node [
     id 332
@@ -2994,7 +3326,8 @@ graph [
     country_code "THA"
     hand "U"
     avg_rank 1179.0
-    std_der 97.0
+    std_dev 97.0
+    rank_class 1179
   ]
   node [
     id 333
@@ -3003,7 +3336,8 @@ graph [
     country_code "HKG"
     hand "U"
     avg_rank -1.0
-    std_der -1.0
+    std_dev -1.0
+    rank_class -1
   ]
   node [
     id 334
@@ -3012,7 +3346,8 @@ graph [
     country_code "TPE"
     hand "R"
     avg_rank 284.0
-    std_der 47.0
+    std_dev 47.0
+    rank_class 284
   ]
   node [
     id 335
@@ -3021,7 +3356,8 @@ graph [
     country_code "HKG"
     hand "U"
     avg_rank 1106.38
-    std_der 39.0
+    std_dev 39.0
+    rank_class 1106
   ]
   node [
     id 336
@@ -3030,7 +3366,8 @@ graph [
     country_code "HKG"
     hand "U"
     avg_rank -1.0
-    std_der -1.0
+    std_dev -1.0
+    rank_class -1
   ]
   node [
     id 337
@@ -3039,7 +3376,8 @@ graph [
     country_code "DEN"
     hand "U"
     avg_rank -1.0
-    std_der -1.0
+    std_dev -1.0
+    rank_class -1
   ]
   node [
     id 338
@@ -3048,7 +3386,8 @@ graph [
     country_code "DEN"
     hand "U"
     avg_rank 970.73
-    std_der 197.0
+    std_dev 197.0
+    rank_class 970
   ]
   node [
     id 339
@@ -3057,7 +3396,8 @@ graph [
     country_code "EGY"
     hand "R"
     avg_rank 407.62
-    std_der 51.0
+    std_dev 51.0
+    rank_class 407
   ]
   node [
     id 340
@@ -3066,7 +3406,8 @@ graph [
     country_code "SUI"
     hand "U"
     avg_rank 481.76
-    std_der 42.0
+    std_dev 42.0
+    rank_class 481
   ]
   node [
     id 341
@@ -3075,7 +3416,8 @@ graph [
     country_code "ALG"
     hand "R"
     avg_rank 567.85
-    std_der 98.0
+    std_dev 98.0
+    rank_class 567
   ]
   node [
     id 342
@@ -3084,7 +3426,8 @@ graph [
     country_code "LTU"
     hand "R"
     avg_rank 348.32
-    std_der 68.0
+    std_dev 68.0
+    rank_class 348
   ]
   node [
     id 343
@@ -3093,7 +3436,8 @@ graph [
     country_code "MAR"
     hand "U"
     avg_rank 1600.38
-    std_der 13.0
+    std_dev 13.0
+    rank_class 1600
   ]
   node [
     id 344
@@ -3102,7 +3446,8 @@ graph [
     country_code "GEO"
     hand "R"
     avg_rank 667.42
-    std_der 64.0
+    std_dev 64.0
+    rank_class 667
   ]
   node [
     id 345
@@ -3111,7 +3456,8 @@ graph [
     country_code "NOR"
     hand "U"
     avg_rank 353.66
-    std_der 29.0
+    std_dev 29.0
+    rank_class 353
   ]
   node [
     id 346
@@ -3120,7 +3466,8 @@ graph [
     country_code "GEO"
     hand "U"
     avg_rank 897.76
-    std_der 25.0
+    std_dev 25.0
+    rank_class 897
   ]
   node [
     id 347
@@ -3129,7 +3476,8 @@ graph [
     country_code "ZIM"
     hand "R"
     avg_rank 510.51
-    std_der 48.0
+    std_dev 48.0
+    rank_class 510
   ]
   node [
     id 348
@@ -3138,7 +3486,8 @@ graph [
     country_code "ROU"
     hand "R"
     avg_rank 491.85
-    std_der 229.0
+    std_dev 229.0
+    rank_class 491
   ]
   node [
     id 349
@@ -3147,7 +3496,8 @@ graph [
     country_code "ZIM"
     hand "R"
     avg_rank 500.26
-    std_der 67.0
+    std_dev 67.0
+    rank_class 500
   ]
   node [
     id 350
@@ -3156,7 +3506,8 @@ graph [
     country_code "ROU"
     hand "U"
     avg_rank 483.86
-    std_der 88.0
+    std_dev 88.0
+    rank_class 483
   ]
   node [
     id 351
@@ -3165,7 +3516,8 @@ graph [
     country_code "ZIM"
     hand "R"
     avg_rank 948.62
-    std_der 117.0
+    std_dev 117.0
+    rank_class 948
   ]
   node [
     id 352
@@ -3174,7 +3526,8 @@ graph [
     country_code "RSA"
     hand "R"
     avg_rank 609.0
-    std_der 73.0
+    std_dev 73.0
+    rank_class 609
   ]
   node [
     id 353
@@ -3183,7 +3536,8 @@ graph [
     country_code "RSA"
     hand "R"
     avg_rank -1.0
-    std_der -1.0
+    std_dev -1.0
+    rank_class -1
   ]
   node [
     id 354
@@ -3192,7 +3546,8 @@ graph [
     country_code "BUL"
     hand "U"
     avg_rank 856.19
-    std_der 77.0
+    std_dev 77.0
+    rank_class 856
   ]
   node [
     id 355
@@ -3201,7 +3556,8 @@ graph [
     country_code "BIH"
     hand "U"
     avg_rank 430.69
-    std_der 81.0
+    std_dev 81.0
+    rank_class 430
   ]
   node [
     id 356
@@ -3210,7 +3566,8 @@ graph [
     country_code "BEL"
     hand "R"
     avg_rank 229.38
-    std_der 41.0
+    std_dev 41.0
+    rank_class 229
   ]
   node [
     id 357
@@ -3219,7 +3576,8 @@ graph [
     country_code "SVK"
     hand "R"
     avg_rank 181.94
-    std_der 15.0
+    std_dev 15.0
+    rank_class 181
   ]
   node [
     id 358
@@ -3228,7 +3586,8 @@ graph [
     country_code "CZE"
     hand "R"
     avg_rank 558.34
-    std_der 52.0
+    std_dev 52.0
+    rank_class 558
   ]
   node [
     id 359
@@ -3237,7 +3596,8 @@ graph [
     country_code "HUN"
     hand "U"
     avg_rank 385.66
-    std_der 33.0
+    std_dev 33.0
+    rank_class 385
   ]
   node [
     id 360
@@ -3246,7 +3606,8 @@ graph [
     country_code "HUN"
     hand "U"
     avg_rank 562.24
-    std_der 36.0
+    std_dev 36.0
+    rank_class 562
   ]
   node [
     id 361
@@ -3255,7 +3616,8 @@ graph [
     country_code "HUN"
     hand "U"
     avg_rank 1003.12
-    std_der 213.0
+    std_dev 213.0
+    rank_class 1003
   ]
   node [
     id 362
@@ -3264,7 +3626,8 @@ graph [
     country_code "HUN"
     hand "U"
     avg_rank 1636.65
-    std_der 146.0
+    std_dev 146.0
+    rank_class 1636
   ]
   node [
     id 363
@@ -3273,7 +3636,8 @@ graph [
     country_code "CHN"
     hand "R"
     avg_rank 471.96
-    std_der 232.0
+    std_dev 232.0
+    rank_class 471
   ]
   edge [
     source 0

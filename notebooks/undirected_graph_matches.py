@@ -140,6 +140,13 @@ print("network_DC: {}". format(network_DC))
 print("network_CC: {}". format(network_CC))
 print("network_BC: {}". format(network_BC))
 
+# pitanje 16
+# diameter = nx.diameter(G)
+# avg_path_length = nx.average_shortest_path_length(G)
+#
+# print("Diameter: {}".format(diameter))
+# print("Average path length: {}".format(avg_path_length))
+
 # pitanje 17
 degree_sequence = sorted([d for n, d in G.degree()], reverse=True)  # degree sequence
 degreeCount = collections.Counter(degree_sequence)
