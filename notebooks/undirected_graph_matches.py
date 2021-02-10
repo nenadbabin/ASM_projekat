@@ -5,6 +5,7 @@ from notebooks.utility import add_player_node, get_ranking_data, year_string_to_
     players_nationalities, get_points_data, get_all_players, calculate_sum_of_differences, calculate_graph_centralities
 import collections
 import matplotlib.pyplot as plt
+import numpy as np
 
 YEAR = "2018"
 
@@ -17,9 +18,10 @@ data_atp_matches = pd.read_csv(data_path_atp_matches)
 data_atp_players = pd.read_csv(data_path_atp_players)
 
 # Remove unnecessary columns
-data_atp_matches = data_atp_matches.drop(['tourney_id',
-                                          'tourney_name',
-                                          'surface',
+data_atp_matches = data_atp_matches.drop([
+                                          # 'tourney_id',
+                                          # 'tourney_name',
+                                          # 'surface',
                                           'draw_size',
                                           'tourney_level',
                                           'tourney_date',
@@ -237,6 +239,38 @@ nx.write_gml(rafael_nadal_ego_network, output_path_rafael_nadal_ego)
 novak_djokovic_ego_network = nx.ego_graph(G, novak_djokovic_node)
 output_path_novak_djokovic_ego = "../models/novak_djokovic_ego_network_" + YEAR + ".gml"
 nx.write_gml(novak_djokovic_ego_network, output_path_novak_djokovic_ego)
+
+#%%
+ego_networks_union = roger_federer_ego_network
+
+for ego_network in [rafael_nadal_ego_network, novak_djokovic_ego_network]:
+
+    for edge in ego_network.edges:
+        player_1_id = int(edge[0])
+        player_2_id = int(edge[1])
+        if player_1_id not in ego_networks_union.nodes:
+            add_player_node(ego_networks_union, player_1_id, selected_players_data, ranking_data)
+        if player_2_id not in ego_networks_union.nodes:
+            add_player_node(ego_networks_union, player_2_id, selected_players_data, ranking_data)
+
+        edge_info = ego_network.edges[edge]
+        if edge not in ego_networks_union.edges:
+            ego_networks_union.add_edge(player_1_id, player_2_id, weight=edge_info['weight'])
+
+output_path_ego_networks_union = "../models/big_3_ego_networks_union_" + YEAR + ".gml"
+nx.write_gml(ego_networks_union, output_path_ego_networks_union)
+
+#%%
+
+atp_tourneys = data_atp_matches[['tourney_id', 'tourney_name', 'surface']].groupby(['tourney_id', 'tourney_name', 'surface']).agg('size')
+print(atp_tourneys)
+number_of_tourneys_by_surface = atp_tourneys.groupby('surface').aggregate(np.size)
+print(number_of_tourneys_by_surface)
+
+#%%
+
+number_of_matches_by_surface = atp_tourneys.groupby(['surface']).agg('sum')
+print(number_of_matches_by_surface)
 
 #%%
 # Upis grafa
