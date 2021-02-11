@@ -218,8 +218,18 @@ nx.write_gml(ba_graph, ba_output_path)
 # for communities in itertools.islice(comp, 10):
 #     print(tuple(sorted(c) for c in communities))
 
-# omega = nx.algorithms.smallworld.omega(G)
-# print(omega)
+# sigma = nx.algorithms.smallworld.sigma(G, niter=10, nrand=1)
+# print("Sigma: {}".format(sigma))
+
+giantG = max((G.subgraph(c) for c in nx.connected_components(G)), key=len)
+giantER = max((er_graph.subgraph(c) for c in nx.connected_components(er_graph)), key=len)
+L = nx.average_shortest_path_length(giantG)
+Lr = nx.average_shortest_path_length(giantER)
+C = nx.average_clustering(giantG)
+Cr = nx.average_clustering(giantER)
+
+sigma = (C / Cr) / (L / Lr)
+print("Sigma: {}".format(sigma))
 
 
 #%%
@@ -263,7 +273,7 @@ nx.write_gml(ego_networks_union, output_path_ego_networks_union)
 #%%
 
 atp_tourneys = data_atp_matches[['tourney_id', 'tourney_name', 'surface']].groupby(['tourney_id', 'tourney_name', 'surface']).agg('size')
-print(atp_tourneys)
+# print(atp_tourneys)
 number_of_tourneys_by_surface = atp_tourneys.groupby('surface').aggregate(np.size)
 print(number_of_tourneys_by_surface)
 

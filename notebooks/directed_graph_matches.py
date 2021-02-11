@@ -96,6 +96,6 @@ for _, winner_id, loser_id in data_atp_matches[['winner_id', 'loser_id']].itertu
     else:
         G.add_edge(loser_id, winner_id, weight=1)
 
-output_path = "../models/matches_" + YEAR + "_undirected_weights.gml"
+output_path = "../models/matches_" + YEAR + "_directed_weights.gml"
 
 nx.write_gml(G, output_path)
